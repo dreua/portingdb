@@ -1,0 +1,54 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 2
+    }, 
+    {
+      "source": 1, 
+      "target": 2
+    }, 
+    {
+      "source": 3, 
+      "target": 2
+    }
+  ], 
+  "nodes": [
+    {
+      "color": "#d6b1af", 
+      "name": "os-collect-config", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.703445699809722, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "python-glance-store", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.796623261161539, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#c2c2c2", 
+      "name": "python-oslo-config", 
+      "num_requirements": 0, 
+      "num_requirers": 5, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "python-oslo-policy", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.6196956397130595, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }
+  ]
+}

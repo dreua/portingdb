@@ -1,0 +1,2063 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+    <head>
+        <title>trytond – Python 3 Porting Database </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" type="image/svg+xml" href="/status/py3-only.svg?109c7260-bf04-41cf-9ad6-19eecf96e0e2">
+        
+        <link rel="stylesheet" href="/static/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+        <style>
+            
+            .badge {
+                min-width: 2em;
+                color: black;
+                margin-left: 0.5ex;
+            }
+            .simple-pkg-list {
+                list-style-type: none;
+                padding-left: 1em;
+            }
+            .dependents .badge {
+                min-width: 1ex;
+                min-height: 1ex;
+                font-size: 0;
+                padding: 0.75rem;
+                margin-left: 0 !important;
+            }
+            .dependents th {
+                font-weight: normal;
+            }
+            .dependents .th-collection {
+                font-size: 70%;
+            }
+            .pkgstatus-icon {
+                padding: 0;
+                min-width: 3px;
+            }
+            .note {
+                font-style: italic;
+            }
+            .iconlink span.type-alt {
+                font-size: 0;
+            }
+            nav, nav ol {
+                margin-bottom: 0 !important;
+                background-color: #F5F5F5;
+            }
+            .progress-with-legend {
+                margin-bottom: 1em;
+            }
+            .minibadge {
+                display: inline-block;
+                position: relative;
+                top: 2px;
+                min-height: 1em;
+                min-width: 1em;
+                border-radius: 3px;
+                padding: 2px;
+            }
+            .list-group .minibadge {
+                float: right;
+            }
+            .rpm-list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                padding-left: 1em;
+            }
+            .rpm-list li .rpm-name {
+                font-weight: bold;
+            }
+            .iconlink-bug-NEW,
+            .iconlink-bug-CLOSED-DEFERRED
+                { color: #AAAAAA !important; } /* ~idle */
+            .iconlink-bug-ASSIGNED,
+            .iconlink-bug-POST,
+            .iconlink-bug-MODIFIED,
+            .iconlink-bug-ON_QA,
+            .iconlink-bug-VERIFIED,
+            .iconlink-bug-RELEASE_PENDING,
+            .iconlink-bug-CLOSED
+                { color: #F0AD4E !important; } /* ~in-progress */
+            .iconlink-bug-CLOSED-NOTABUG,
+            .iconlink-bug-CLOSED-WONTFIX,
+            .iconlink-bug-CLOSED-WORKSFORME,
+            .iconlink-bug-CLOSED-DUPLICATE,
+            .iconlink-bug-CLOSED-UPSTREAM
+            .iconlink-bug-CLOSED-CANTFIX,
+            .iconlink-bug-CLOSED-INSUFFICIENT_DATA,
+            .iconlink-bug-CLOSED-EOL
+                 { color: #D9534F !important; } /* ~blocked */
+            .iconlink-bug-CLOSED-CURRENTRELEASE,
+            .iconlink-bug-CLOSED-RAWHIDE,
+            .iconlink-bug-CLOSED-ERRATA,
+            .iconlink-bug-CLOSED-NEXTRELEASE
+                { color: #5CB85C !important; } /* ~released */
+
+            .global-message {
+                padding: 0.1ex;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #888;
+                color: #000;
+            }
+            .related-packages .progress-legend-item {
+                display: block;
+                padding-left: 2em;
+            }
+            body {
+                margin-bottom: 4em;
+            }
+            
+
+            
+        </style>
+    </head>
+    <body>
+        
+            <nav>
+                <div class="container">
+                    <ol class="breadcrumb">
+                        
+                            
+                                <li>
+                                    <a href="/">Python 3 Porting Database</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="active">trytond</li>
+                            
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+        
+    <div class="container">
+        <div class="col-md-12">
+            <h1>Package trytond </h1>
+            <div style="border-left: 4px solid #5D9552; padding-left: 4px; ">
+                <p>Welcome to the future! This package does not support Python 2 at all. All is good in the world.</p>
+            </div>
+            <br>
+            <div>
+                <img src="https://fedoraproject.org/static/images/favicon.ico">
+                See
+                <a href="https://src.fedoraproject.org/rpms/trytond/">
+                    trytond</a>
+                in the Fedora Pagure, or go directly to the corresponding
+                <a href="https://src.fedoraproject.org/rpms/trytond/blob/master/f/trytond.spec">spec file</a>.
+            </div>
+        </div>
+        <div class="col-md-3">
+                
+                
+                    
+                    
+                        <div>
+                            <h3>RPMs</h3>
+                            <ul class="rpm-list">
+                            
+                                <li>
+                                    <span class="rpm-name">trytond</span>-4.0.4-8.fc29
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                /usr/bin/python3
+                                                
+                                            </li>
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                python(abi) = 3.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li>
+                                    <span class="rpm-name">trytond-mysql</span>-4.0.4-8.fc29
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                python(abi) = 3.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li>
+                                    <span class="rpm-name">trytond-pgsql</span>-4.0.4-8.fc29
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                python(abi) = 3.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li>
+                                    <span class="rpm-name">trytond-sqlite</span>-4.0.4-8.fc29
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                python(abi) = 3.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    
+                    
+                
+            
+                <h3>Groups</h3>
+                <ul>
+                    
+                        <li>
+                            <a href="/grp/tryton/">
+                                Tryton Application Platform
+                            </a>
+                        </li>
+                    
+                </ul>
+            
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependencies</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        <div>
+        
+            11 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            3 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            8 Dual support
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pydot/">pydot</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-dateutil/">python-dateutil</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-lxml/">python-lxml</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mysql/">python-mysql</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-polib/">python-polib</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-psycopg2/">python-psycopg2</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-werkzeug/">python-werkzeug</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1291370" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-wrapt/">python-wrapt</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-relatorio/">python-relatorio</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1356505" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-sql/">python-sql</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1432186" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        <div>
+        
+            2 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            1 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            1 Dual support
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-sphinx/">python-sphinx</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1432186" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pydot/">pydot</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-dateutil/">python-dateutil</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-lxml/">python-lxml</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mysql/">python-mysql</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-polib/">python-polib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-psycopg2/">python-psycopg2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-sphinx/">python-sphinx</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-werkzeug/">python-werkzeug</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-wrapt/">python-wrapt</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-relatorio/">python-relatorio</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-sql/">python-sql</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependents</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        <div>
+        
+            44 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            44 Python 3 only
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-proteus/">python-proteus</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account/">trytond-account</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-be/">trytond-account-be</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-de-skr03/">trytond-account-de-skr03</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-invoice/">trytond-account-invoice</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-invoice-history/">trytond-account-invoice-history</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-invoice-line-standalone/">trytond-account-invoice-line-standalone</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-product/">trytond-account-product</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-statement/">trytond-account-statement</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-stock-anglo-saxon/">trytond-account-stock-anglo-saxon</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-stock-continental/">trytond-account-stock-continental</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-account/">trytond-analytic-account</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-invoice/">trytond-analytic-invoice</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-purchase/">trytond-analytic-purchase</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-sale/">trytond-analytic-sale</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-company/">trytond-company</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-company-work-time/">trytond-company-work-time</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-country/">trytond-country</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-currency/">trytond-currency</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-dashboard/">trytond-dashboard</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-google-maps/">trytond-google-maps</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-ldap-authentication/">trytond-ldap-authentication</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-party/">trytond-party</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-party-siret/">trytond-party-siret</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product/">trytond-product</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product-cost-fifo/">trytond-product-cost-fifo</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product-cost-history/">trytond-product-cost-history</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product-price-list/">trytond-product-price-list</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-project/">trytond-project</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-project-plan/">trytond-project-plan</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-project-revenue/">trytond-project-revenue</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-purchase/">trytond-purchase</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-purchase-invoice-line-standalone/">trytond-purchase-invoice-line-standalone</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-sale/">trytond-sale</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-sale-opportunity/">trytond-sale-opportunity</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-sale-price-list/">trytond-sale-price-list</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock/">trytond-stock</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-forecast/">trytond-stock-forecast</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-inventory-location/">trytond-stock-inventory-location</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-location-sequence/">trytond-stock-location-sequence</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-product-location/">trytond-stock-product-location</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-supply/">trytond-stock-supply</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-supply-day/">trytond-stock-supply-day</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-timesheet/">trytond-timesheet</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        None.
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-proteus/">python-proteus</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account/">trytond-account</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-be/">trytond-account-be</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-de-skr03/">trytond-account-de-skr03</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-invoice/">trytond-account-invoice</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-invoice-history/">trytond-account-invoice-history</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-invoice-line-standalone/">trytond-account-invoice-line-standalone</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-product/">trytond-account-product</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-statement/">trytond-account-statement</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-stock-anglo-saxon/">trytond-account-stock-anglo-saxon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-account-stock-continental/">trytond-account-stock-continental</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-account/">trytond-analytic-account</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-invoice/">trytond-analytic-invoice</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-purchase/">trytond-analytic-purchase</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-analytic-sale/">trytond-analytic-sale</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-company/">trytond-company</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-company-work-time/">trytond-company-work-time</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-country/">trytond-country</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-currency/">trytond-currency</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-dashboard/">trytond-dashboard</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-google-maps/">trytond-google-maps</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-ldap-authentication/">trytond-ldap-authentication</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-party/">trytond-party</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-party-siret/">trytond-party-siret</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product/">trytond-product</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product-cost-fifo/">trytond-product-cost-fifo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product-cost-history/">trytond-product-cost-history</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-product-price-list/">trytond-product-price-list</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-project/">trytond-project</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-project-plan/">trytond-project-plan</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-project-revenue/">trytond-project-revenue</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-purchase/">trytond-purchase</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-purchase-invoice-line-standalone/">trytond-purchase-invoice-line-standalone</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-sale/">trytond-sale</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-sale-opportunity/">trytond-sale-opportunity</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-sale-price-list/">trytond-sale-price-list</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock/">trytond-stock</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-forecast/">trytond-stock-forecast</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-inventory-location/">trytond-stock-inventory-location</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-location-sequence/">trytond-stock-location-sequence</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-product-location/">trytond-stock-product-location</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-supply/">trytond-stock-supply</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-stock-supply-day/">trytond-stock-supply-day</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/trytond-timesheet/">trytond-timesheet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+    </div>
+
+        
+    </body>
+</html>

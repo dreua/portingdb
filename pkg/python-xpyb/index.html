@@ -1,0 +1,4296 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+    <head>
+        <title>python-xpyb – Python 3 Porting Database </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" type="image/svg+xml" href="/status/idle.svg?38d60b7e-8f4e-4439-8a1c-78a6b75e7180">
+        
+        <link rel="stylesheet" href="/static/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+        <style>
+            
+            .badge {
+                min-width: 2em;
+                color: black;
+                margin-left: 0.5ex;
+            }
+            .simple-pkg-list {
+                list-style-type: none;
+                padding-left: 1em;
+            }
+            .dependents .badge {
+                min-width: 1ex;
+                min-height: 1ex;
+                font-size: 0;
+                padding: 0.75rem;
+                margin-left: 0 !important;
+            }
+            .dependents th {
+                font-weight: normal;
+            }
+            .dependents .th-collection {
+                font-size: 70%;
+            }
+            .pkgstatus-icon {
+                padding: 0;
+                min-width: 3px;
+            }
+            .note {
+                font-style: italic;
+            }
+            .iconlink span.type-alt {
+                font-size: 0;
+            }
+            nav, nav ol {
+                margin-bottom: 0 !important;
+                background-color: #F5F5F5;
+            }
+            .progress-with-legend {
+                margin-bottom: 1em;
+            }
+            .minibadge {
+                display: inline-block;
+                position: relative;
+                top: 2px;
+                min-height: 1em;
+                min-width: 1em;
+                border-radius: 3px;
+                padding: 2px;
+            }
+            .list-group .minibadge {
+                float: right;
+            }
+            .rpm-list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                padding-left: 1em;
+            }
+            .rpm-list li .rpm-name {
+                font-weight: bold;
+            }
+            .iconlink-bug-NEW,
+            .iconlink-bug-CLOSED-DEFERRED
+                { color: #AAAAAA !important; } /* ~idle */
+            .iconlink-bug-ASSIGNED,
+            .iconlink-bug-POST,
+            .iconlink-bug-MODIFIED,
+            .iconlink-bug-ON_QA,
+            .iconlink-bug-VERIFIED,
+            .iconlink-bug-RELEASE_PENDING,
+            .iconlink-bug-CLOSED
+                { color: #F0AD4E !important; } /* ~in-progress */
+            .iconlink-bug-CLOSED-NOTABUG,
+            .iconlink-bug-CLOSED-WONTFIX,
+            .iconlink-bug-CLOSED-WORKSFORME,
+            .iconlink-bug-CLOSED-DUPLICATE,
+            .iconlink-bug-CLOSED-UPSTREAM
+            .iconlink-bug-CLOSED-CANTFIX,
+            .iconlink-bug-CLOSED-INSUFFICIENT_DATA,
+            .iconlink-bug-CLOSED-EOL
+                 { color: #D9534F !important; } /* ~blocked */
+            .iconlink-bug-CLOSED-CURRENTRELEASE,
+            .iconlink-bug-CLOSED-RAWHIDE,
+            .iconlink-bug-CLOSED-ERRATA,
+            .iconlink-bug-CLOSED-NEXTRELEASE
+                { color: #5CB85C !important; } /* ~released */
+
+            .global-message {
+                padding: 0.1ex;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #888;
+                color: #000;
+            }
+            .related-packages .progress-legend-item {
+                display: block;
+                padding-left: 2em;
+            }
+            body {
+                margin-bottom: 4em;
+            }
+            
+
+            
+        </style>
+    </head>
+    <body>
+        
+            <nav>
+                <div class="container">
+                    <ol class="breadcrumb">
+                        
+                            
+                                <li>
+                                    <a href="/">Python 3 Porting Database</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="active">python-xpyb</li>
+                            
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+        
+    <div class="container">
+        <div class="col-md-12">
+            <h1>Package python-xpyb </h1>
+            <div style="border-left: 4px solid #DDDDDD; padding-left: 4px; ">
+                <p>No one is working on this package now. You can visit pkgdb for links to the
+upstream project.
+Ask for Python 3 status, and coordinate work with the upstream to port.</p>
+<p>If upstream has Python 3 support but it is not yet in Fedora,
+get in touch with the Fedora maintainer (also visible in pkgdb).</p>
+            </div>
+            <br>
+            <div>
+                <img src="https://fedoraproject.org/static/images/favicon.ico">
+                See
+                <a href="https://src.fedoraproject.org/rpms/python-xpyb/">
+                    python-xpyb</a>
+                in the Fedora Pagure, or go directly to the corresponding
+                <a href="https://src.fedoraproject.org/rpms/python-xpyb/blob/master/f/python-xpyb.spec">spec file</a>.
+            </div>
+        </div>
+        <div class="col-md-3">
+                
+                
+                    
+                    
+                        <div>
+                            <h3>RPMs</h3>
+                            <ul class="rpm-list">
+                            
+                                <li>
+                                    <span class="rpm-name">python-xpyb-devel</span>-1.3.1-11.fc28
+                                    
+                                    <span class="badge"
+                                          style="background-color: #F0AD4E !important;"
+                                          title="The RPM name does not comply with Python package naming guidelines"
+                                    >x</span>
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">×</span>
+                                                
+                                                python2-devel
+                                                
+                                            </li>
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">×</span>
+                                                
+                                                python2-devel = 2.7.15-10.fc30
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li>
+                                    <span class="rpm-name">python2-xpyb</span>-1.3.1-11.fc28
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">×</span>
+                                                
+                                                python(abi) = 2.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    
+                    
+                
+            
+                <h3>Groups</h3>
+                <ul>
+                    
+                        <li>
+                            <a href="/grp/django/">
+                                Django Web Framework
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/grp/fedora-infra/">
+                                Fedora Infrastructure
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/grp/identity/">
+                                Identity Management
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/grp/kde-spin/">
+                                KDE spin
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/grp/olpc/">
+                                OLPC/Sugar
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/grp/openstack/">
+                                OpenStack
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/grp/trac/">
+                                Version Control &amp; Trac
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/grp/xfce-spin/">
+                                Xfce spin
+                            </a>
+                        </li>
+                    
+                </ul>
+            
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependencies</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        <div>
+        
+            1 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #888888 !important;"
+                title="{&#39;ident&#39;: &#39;dropped&#39;, &#39;name&#39;: &#39;Dropped&#39;, &#39;abbrev&#39;: &#39;X&#39;, &#39;color&#39;: &#39;888888&#39;, &#39;term&#39;: &#39;X&#39;, &#39;weight&#39;: 1, &#39;description&#39;: &#39;Package will not be ported; dependents must use an alternative&#39;, &#39;rank&#39;: 1, &#39;instructions&#39;: &#39;This package will not be ported to Python 3. We can do without it – see\nif there is an alternative listed in the notes.\n\nIf you think it would be good to port it anyway, get in touch with the upstream!\n&#39;}"
+            >
+            </span>
+            1 Dropped
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #888888 !important;"
+            title="Dropped"
+        >
+            X
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        <div>
+        
+            2 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            1 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #888888 !important;"
+                title="{&#39;ident&#39;: &#39;dropped&#39;, &#39;name&#39;: &#39;Dropped&#39;, &#39;abbrev&#39;: &#39;X&#39;, &#39;color&#39;: &#39;888888&#39;, &#39;term&#39;: &#39;X&#39;, &#39;weight&#39;: 1, &#39;description&#39;: &#39;Package will not be ported; dependents must use an alternative&#39;, &#39;rank&#39;: 1, &#39;instructions&#39;: &#39;This package will not be ported to Python 3. We can do without it – see\nif there is an alternative listed in the notes.\n\nIf you think it would be good to port it anyway, get in touch with the upstream!\n&#39;}"
+            >
+            </span>
+            1 Dropped
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/xcb-proto/">xcb-proto</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #888888 !important;"
+            title="Dropped"
+        >
+            X
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/xcb-proto/">xcb-proto</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependents</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        <div>
+        
+            1 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            1 Dual support
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pycairo/">pycairo</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        <div>
+        
+            1 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            1 Dual support
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pycairo/">pycairo</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pycairo/">pycairo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/dogtail/">dogtail</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-photos/">gnome-photos</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/gimp/">gimp</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/gimp-layer-via-copy-cut/">gimp-layer-via-copy-cut</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/gimp-resynthesizer/">gimp-resynthesizer</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gutenprint/">gutenprint</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/gnome-activity-journal/">gnome-activity-journal</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/hippo-canvas/">hippo-canvas</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-toolkit/">sugar-toolkit</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/icaro/">icaro</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-castle/">sugar-castle</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-connect/">sugar-connect</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-countries/">sugar-countries</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-deducto/">sugar-deducto</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-flipsticks/">sugar-flipsticks</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-kuku/">sugar-kuku</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-labyrinth/">sugar-labyrinth</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-playgo/">sugar-playgo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-srilanka/">sugar-srilanka</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-starchart/">sugar-starchart</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-view-slides/">sugar-view-slides</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-xomail/">sugar-xomail</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/labyrinth/">labyrinth</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/pygoocanvas/">pygoocanvas</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/pypoppler/">pypoppler</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/gourmet/">gourmet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/pdfshuffler/">pdfshuffler</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/uniconvertor/">uniconvertor</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/inkscape/">inkscape</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/vfrnav/">vfrnav</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/fedora-business-cards/">fedora-business-cards</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/inkscape-psd/">inkscape-psd</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/inkscape-sozi/">inkscape-sozi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/inkscape-table/">inkscape-table</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/inksmoto/">inksmoto</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/bkchem/">bkchem</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/icaro/">icaro</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pygobject3/">pygobject3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/abiword/">abiword</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-write/">sugar-write</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/blueberry/">blueberry</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/dogtail/">dogtail</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/odcs/">odcs</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/meta-test-family/">meta-test-family</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/vips/">vips</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/avahi/">avahi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/winswitch/">winswitch</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/fleet-commander-admin/">fleet-commander-admin</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/fleet-commander-client/">fleet-commander-client</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/gjots2/">gjots2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/gphotoframe/">gphotoframe</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/mypaint/">mypaint</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/nemo-extensions/">nemo-extensions</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/phatch/">phatch</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/prepaid-manager-applet/">prepaid-manager-applet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/pulsecaster/">pulsecaster</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/rabbitvcs/">rabbitvcs</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/rocket-depot/">rocket-depot</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/syncthing-gtk/">syncthing-gtk</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/taskcoach/">taskcoach</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/terminator/">terminator</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/fedmsg-notify/">fedmsg-notify</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/hamster-time-tracker/">hamster-time-tracker</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/mate-menu/">mate-menu</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/olpc-switch-desktop/">olpc-switch-desktop</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/pdc-updater/">pdc-updater</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/pulp-ostree/">pulp-ostree</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/rpm-ostree-toolbox/">rpm-ostree-toolbox</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-toolkit-gtk3/">sugar-toolkit-gtk3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/bitfrost/">bitfrost</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar/">sugar</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-abacus/">sugar-abacus</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-browse/">sugar-browse</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-calculator/">sugar-calculator</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-chat/">sugar-chat</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-clock/">sugar-clock</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-distance/">sugar-distance</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-finance/">sugar-finance</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-fototoon/">sugar-fototoon</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-fractionbounce/">sugar-fractionbounce</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-getiabooks/">sugar-getiabooks</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-hello-world/">sugar-hello-world</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-imageviewer/">sugar-imageviewer</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-implode/">sugar-implode</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-infoslicer/">sugar-infoslicer</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-locosugar/">sugar-locosugar</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-log/">sugar-log</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-maze/">sugar-maze</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-measure/">sugar-measure</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-memorize/">sugar-memorize</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-moon/">sugar-moon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-nutrition/">sugar-nutrition</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-physics/">sugar-physics</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-pippy/">sugar-pippy</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-portfolio/">sugar-portfolio</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-pukllanapac/">sugar-pukllanapac</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-read/">sugar-read</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-recall/">sugar-recall</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-record/">sugar-record</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-ruler/">sugar-ruler</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-speak/">sugar-speak</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-stopwatch/">sugar-stopwatch</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-terminal/">sugar-terminal</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-turtleart/">sugar-turtleart</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-typing-turtle/">sugar-typing-turtle</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-words/">sugar-words</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-xoirc/">sugar-xoirc</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/tortoisehg/">tortoisehg</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/dbus-python/">dbus-python</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/blueberry/">blueberry</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/avahi/">avahi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/batti/">batti</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/fleet-commander-admin/">fleet-commander-admin</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/fleet-commander-client/">fleet-commander-client</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/geome/">geome</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/libffado/">libffado</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/lnst/">lnst</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/mailnag/">mailnag</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/ovirt-guest-agent/">ovirt-guest-agent</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/prepaid-manager-applet/">prepaid-manager-applet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/pulseaudio/">pulseaudio</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/pulsecaster/">pulsecaster</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-telepathy/">python-telepathy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/rapid-photo-downloader/">rapid-photo-downloader</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/revelation/">revelation</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/scout/">scout</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/specto/">specto</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/system-config-firewall/">system-config-firewall</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/system-config-keyboard/">system-config-keyboard</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/whaawmp/">whaawmp</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/wicd/">wicd</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/zeitgeist/">zeitgeist</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/ailurus/">ailurus</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/cherrytree/">cherrytree</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/earcandy/">earcandy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/exaile/">exaile</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/flumotion/">flumotion</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/guake/">guake</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/hamster-time-tracker/">hamster-time-tracker</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/kupfer/">kupfer</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-toolkit/">sugar-toolkit</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/sugar-toolkit-gtk3/">sugar-toolkit-gtk3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/synce-gnome/">synce-gnome</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/synce-sync-engine/">synce-sync-engine</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/winswitch/">winswitch</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/yum-updatesd/">yum-updatesd</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/PyQt4/">PyQt4</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/livecd-tools/">livecd-tools</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pyatspi/">pyatspi</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-SecretStorage/">python-SecretStorage</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-dbusmock/">python-dbusmock</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-qt5/">python-qt5</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/subscription-manager/">subscription-manager</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/dnfdaemon/">dnfdaemon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/ibus/">ibus</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-collectd_systemd/">python-collectd_systemd</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/rhn-client-tools/">rhn-client-tools</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/tracer/">tracer</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/abrt/">abrt</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/anaconda/">anaconda</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/atomic/">atomic</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/autokey/">autokey</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/blueman/">blueman</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/cinnamon/">cinnamon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/cockpit/">cockpit</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/dnf-plugins-extras/">dnf-plugins-extras</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/firewalld/">firewalld</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/freeipa/">freeipa</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gajim/">gajim</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-abrt/">gnome-abrt</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-code-assistance/">gnome-code-assistance</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-dvb-daemon/">gnome-dvb-daemon</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-music/">gnome-music</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gpodder/">gpodder</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/hplip/">hplip</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ibus-typing-booster/">ibus-typing-booster</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lollypop/">lollypop</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lvm2/">lvm2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/meld/">meld</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/mpdris2/">mpdris2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/onboard/">onboard</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/openscap-daemon/">openscap-daemon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pidgin/">pidgin</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pogo/">pogo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/printrun/">printrun</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-dbus-python-client-gen/">python-dbus-python-client-gen</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-into-dbus-python/">python-into-dbus-python</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-meh/">python-meh</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-networkmanager/">python-networkmanager</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-slip/">python-slip</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/quodlibet/">quodlibet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/scudcloud/">scudcloud</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/setroubleshoot/">setroubleshoot</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/system-config-printer/">system-config-printer</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/targetcli/">targetcli</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/telepathy-gabble/">telepathy-gabble</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/tuned/">tuned</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/variety/">variety</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/xpra/">xpra</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/cairo-dock-plug-ins/">cairo-dock-plug-ins</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/policycoreutils/">policycoreutils</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/bdii/">bdii</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/lnst/">lnst</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-crane/">python-crane</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/vdsm/">vdsm</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-pymilter/">python-pymilter</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/389-ds-base/">389-ds-base</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/atomic/">atomic</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/cloud-init/">cloud-init</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/copr-dist-git/">copr-dist-git</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pki-core/">pki-core</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/radicale/">radicale</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/setroubleshoot/">setroubleshoot</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/pyatspi/">pyatspi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-audioread/">python-audioread</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-acoustid/">python-acoustid</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-librosa/">python-librosa</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-dbusmock/">python-dbusmock</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-gstreamer1/">python-gstreamer1</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/gst-entrans/">gst-entrans</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/mailnag/">mailnag</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/beets/">beets</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lazygal/">lazygal</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pitivi/">pitivi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pogo/">pogo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pychess/">pychess</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/subscription-manager/">subscription-manager</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/caribou/">caribou</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/catfish/">catfish</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/dnfdaemon/">dnfdaemon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/flatpak-module-tools/">flatpak-module-tools</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/ibus/">ibus</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/libgexiv2/">libgexiv2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lazygal/">lazygal</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/variety/">variety</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/vimiv/">vimiv</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/pungi/">pungi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/odcs/">odcs</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/bodhi/">bodhi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/rhn-client-tools/">rhn-client-tools</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/rpkg/">rpkg</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/copr-dist-git/">copr-dist-git</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/fedpkg/">fedpkg</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/rpkg-util/">rpkg-util</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/abrt/">abrt</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/accerciser/">accerciser</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/anaconda/">anaconda</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/apx/">apx</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/atomic/">atomic</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/autokey/">autokey</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/beets/">beets</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/blivet-gui/">blivet-gui</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/blueman/">blueman</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ccsm/">ccsm</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/chrome-gnome-shell/">chrome-gnome-shell</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/cinnamon/">cinnamon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/cinnamon-screensaver/">cinnamon-screensaver</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/d-feet/">d-feet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/dee/">dee</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/fedmod/">fedmod</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/firewalld/">firewalld</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/fonts-tweak-tool/">fonts-tweak-tool</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/fros/">fros</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/fusion-icon/">fusion-icon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/fwupd/">fwupd</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gajim/">gajim</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gedit/">gedit</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnofract4d/">gnofract4d</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-abrt/">gnome-abrt</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-code-assistance/">gnome-code-assistance</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-dvb-daemon/">gnome-dvb-daemon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-gmail/">gnome-gmail</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-music/">gnome-music</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-password-generator/">gnome-password-generator</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-tweaks/">gnome-tweaks</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gpodder/">gpodder</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gpsd/">gpsd</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gramps/">gramps</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gtimelog/">gtimelog</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/hplip/">hplip</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/iapetal/">iapetal</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ibus-anthy/">ibus-anthy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ibus-bogo/">ibus-bogo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ibus-cangjie/">ibus-cangjie</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ibus-hangul/">ibus-hangul</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/kismon/">kismon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/libblockdev/">libblockdev</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/libgit2-glib/">libgit2-glib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/libpeas/">libpeas</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/libratbag/">libratbag</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/libunity/">libunity</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lightdm-autologin-greeter/">lightdm-autologin-greeter</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lightdm-gtk-greeter-settings/">lightdm-gtk-greeter-settings</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lightdm-settings/">lightdm-settings</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lollypop/">lollypop</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lorax/">lorax</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lvm2/">lvm2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/meld/">meld</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/module-build-service/">module-build-service</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/mpdris2/">mpdris2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/nemo/">nemo</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/nfoview/">nfoview</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/onboard/">onboard</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/openscap-daemon/">openscap-daemon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/photocollage/">photocollage</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pitivi/">pitivi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/printrun/">printrun</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pychess/">pychess</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pyhoca-gui/">pyhoca-gui</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-ModulemdTranslationHelpers/">python-ModulemdTranslationHelpers</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-blivet/">python-blivet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-matplotlib/">python-matplotlib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-meh/">python-meh</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-nbxmpp/">python-nbxmpp</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-pydbus/">python-pydbus</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-simpleline/">python-simpleline</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-xdot/">python-xdot</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/quearcode/">quearcode</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/quodlibet/">quodlibet</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/redshift/">redshift</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/scanmem/">scanmem</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/setroubleshoot/">setroubleshoot</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/simple-ccsm/">simple-ccsm</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/solaar/">solaar</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/soundconverter/">soundconverter</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/starcal/">starcal</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/streamtuner/">streamtuner</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/switchdesk/">switchdesk</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/system-config-kdump/">system-config-kdump</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/system-config-language/">system-config-language</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/system-config-printer/">system-config-printer</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/system-config-repo/">system-config-repo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/system-switch-mail/">system-switch-mail</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/targetcli/">targetcli</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/telepathy-gabble/">telepathy-gabble</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/transmageddon/">transmageddon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/tuned/">tuned</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/udiskie/">udiskie</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/vimiv/">vimiv</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/virt-manager/">virt-manager</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/xapps/">xapps</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/xpra/">xpra</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/alacarte/">alacarte</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/cairo-dock-plug-ins/">cairo-dock-plug-ins</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-cairosvg/">python-cairosvg</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-pygal/">python-pygal</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/datagrepper/">datagrepper</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/weasyprint/">weasyprint</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-pycha/">python-pycha</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/accerciser/">accerciser</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/apx/">apx</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ccsm/">ccsm</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/fwupd/">fwupd</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gnome-music/">gnome-music</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/gpsd/">gpsd</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/graphite-api/">graphite-api</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/graphite-web/">graphite-web</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/ibus-anthy/">ibus-anthy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/kismon/">kismon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/lollypop/">lollypop</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/meld/">meld</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/photocollage/">photocollage</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/pitivi/">pitivi</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-mapnik/">python-mapnik</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-matplotlib/">python-matplotlib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-mplcairo/">python-mplcairo</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/simple-ccsm/">simple-ccsm</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/system-config-printer/">system-config-printer</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/variety/">variety</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/gnome-desktop/">gnome-desktop</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/pygtk2/">pygtk2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+    </div>
+
+        
+    </body>
+</html>

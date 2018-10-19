@@ -1,0 +1,531 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 33
+    }, 
+    {
+      "source": 1, 
+      "target": 0
+    }, 
+    {
+      "source": 5, 
+      "target": 0
+    }, 
+    {
+      "source": 6, 
+      "target": 0
+    }, 
+    {
+      "source": 7, 
+      "target": 13
+    }, 
+    {
+      "source": 8, 
+      "target": 0
+    }, 
+    {
+      "source": 8, 
+      "target": 5
+    }, 
+    {
+      "source": 9, 
+      "target": 0
+    }, 
+    {
+      "source": 13, 
+      "target": 12
+    }, 
+    {
+      "source": 13, 
+      "target": 3
+    }, 
+    {
+      "source": 13, 
+      "target": 33
+    }, 
+    {
+      "source": 15, 
+      "target": 32
+    }, 
+    {
+      "source": 15, 
+      "target": 13
+    }, 
+    {
+      "source": 16, 
+      "target": 32
+    }, 
+    {
+      "source": 16, 
+      "target": 13
+    }, 
+    {
+      "source": 18, 
+      "target": 32
+    }, 
+    {
+      "source": 18, 
+      "target": 13
+    }, 
+    {
+      "source": 19, 
+      "target": 32
+    }, 
+    {
+      "source": 19, 
+      "target": 13
+    }, 
+    {
+      "source": 20, 
+      "target": 32
+    }, 
+    {
+      "source": 20, 
+      "target": 13
+    }, 
+    {
+      "source": 21, 
+      "target": 13
+    }, 
+    {
+      "source": 22, 
+      "target": 13
+    }, 
+    {
+      "source": 23, 
+      "target": 33
+    }, 
+    {
+      "source": 23, 
+      "target": 13
+    }, 
+    {
+      "source": 24, 
+      "target": 13
+    }, 
+    {
+      "source": 25, 
+      "target": 10
+    }, 
+    {
+      "source": 25, 
+      "target": 13
+    }, 
+    {
+      "source": 25, 
+      "target": 11
+    }, 
+    {
+      "source": 26, 
+      "target": 10
+    }, 
+    {
+      "source": 26, 
+      "target": 13
+    }, 
+    {
+      "source": 27, 
+      "target": 13
+    }, 
+    {
+      "source": 28, 
+      "target": 33
+    }, 
+    {
+      "source": 28, 
+      "target": 13
+    }, 
+    {
+      "source": 29, 
+      "target": 13
+    }, 
+    {
+      "source": 30, 
+      "target": 32
+    }, 
+    {
+      "source": 30, 
+      "target": 13
+    }, 
+    {
+      "source": 31, 
+      "target": 13
+    }, 
+    {
+      "source": 32, 
+      "target": 4
+    }, 
+    {
+      "source": 32, 
+      "target": 14
+    }, 
+    {
+      "source": 32, 
+      "target": 17
+    }, 
+    {
+      "source": 32, 
+      "target": 2
+    }, 
+    {
+      "source": 33, 
+      "target": 17
+    }, 
+    {
+      "source": 34, 
+      "target": 33
+    }, 
+    {
+      "source": 34, 
+      "target": 13
+    }, 
+    {
+      "source": 35, 
+      "target": 13
+    }, 
+    {
+      "source": 36, 
+      "target": 33
+    }, 
+    {
+      "source": 36, 
+      "target": 13
+    }
+  ], 
+  "nodes": [
+    {
+      "color": "#c18e8b", 
+      "name": "bitfrost", 
+      "num_requirements": 1, 
+      "num_requirers": 5, 
+      "size": 5.446765410496949, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "dracut-modules-olpc", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.2016072029591385, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#ababab", 
+      "name": "gnome-python2-desktop", 
+      "num_requirements": 0, 
+      "num_requirers": 9, 
+      "size": 5.607300599261953, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "gwebsockets", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.974511010745569, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "hippo-canvas", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.923392576177266, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "olpc-contents", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.175694872631053, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-os-builder", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.203571019675287, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-switch-desktop", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.854367640271116, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-update", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.143166531425109, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-utils", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.99668647502282, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-elements", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.763558513777069, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-olpcgames", 
+      "num_requirements": 1, 
+      "num_requirers": 2, 
+      "size": 5.462632502422597, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cccccc", 
+      "name": "python-telepathy", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 5.5015291504342505, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#000000", 
+      "name": "sugar", 
+      "num_requirements": 3, 
+      "num_requirers": 53, 
+      "size": 6.313248812443467, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "sugar-base", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.086538708518065, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-castle", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.390353798099185, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-countries", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.284974868956506, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "sugar-datastore", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.398086457243237, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-flipsticks", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.578449510892383, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-kuku", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.343056551090422, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-labyrinth", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.746559751591205, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-log", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.343999459642529, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-measure", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.7046423490394575, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-moon", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.113883159050113, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-paint", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.578148424616542, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-physics", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.780931939092509, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-pippy", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.710856876376565, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-recall", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.317443162580313, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-record", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.5466054408527175, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-runner", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-srilanka", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.470441036916585, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-terminal", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.2720877106175905, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#95514f", 
+      "name": "sugar-toolkit", 
+      "num_requirements": 4, 
+      "num_requirers": 12, 
+      "size": 5.853522692016941, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#95514f", 
+      "name": "sugar-toolkit-gtk3", 
+      "num_requirements": 1, 
+      "num_requirers": 12, 
+      "size": 6.02735048652676, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "sugar-turtleart", 
+      "num_requirements": 2, 
+      "num_requirers": 1, 
+      "size": 6.201350795058966, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-typing-turtle", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.529334243980406, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-xoirc", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.622306976976865, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }
+  ]
+}

@@ -1,0 +1,5414 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 241
+    }, 
+    {
+      "source": 0, 
+      "target": 418
+    }, 
+    {
+      "source": 1, 
+      "target": 2
+    }, 
+    {
+      "source": 4, 
+      "target": 53
+    }, 
+    {
+      "source": 5, 
+      "target": 248
+    }, 
+    {
+      "source": 7, 
+      "target": 116
+    }, 
+    {
+      "source": 10, 
+      "target": 74
+    }, 
+    {
+      "source": 11, 
+      "target": 291
+    }, 
+    {
+      "source": 11, 
+      "target": 12
+    }, 
+    {
+      "source": 11, 
+      "target": 279
+    }, 
+    {
+      "source": 11, 
+      "target": 301
+    }, 
+    {
+      "source": 12, 
+      "target": 301
+    }, 
+    {
+      "source": 13, 
+      "target": 301
+    }, 
+    {
+      "source": 14, 
+      "target": 196
+    }, 
+    {
+      "source": 15, 
+      "target": 412
+    }, 
+    {
+      "source": 17, 
+      "target": 126
+    }, 
+    {
+      "source": 18, 
+      "target": 352
+    }, 
+    {
+      "source": 19, 
+      "target": 378
+    }, 
+    {
+      "source": 20, 
+      "target": 232
+    }, 
+    {
+      "source": 22, 
+      "target": 163
+    }, 
+    {
+      "source": 23, 
+      "target": 61
+    }, 
+    {
+      "source": 25, 
+      "target": 197
+    }, 
+    {
+      "source": 26, 
+      "target": 223
+    }, 
+    {
+      "source": 27, 
+      "target": 125
+    }, 
+    {
+      "source": 30, 
+      "target": 116
+    }, 
+    {
+      "source": 31, 
+      "target": 180
+    }, 
+    {
+      "source": 32, 
+      "target": 196
+    }, 
+    {
+      "source": 34, 
+      "target": 48
+    }, 
+    {
+      "source": 35, 
+      "target": 258
+    }, 
+    {
+      "source": 35, 
+      "target": 197
+    }, 
+    {
+      "source": 36, 
+      "target": 297
+    }, 
+    {
+      "source": 38, 
+      "target": 204
+    }, 
+    {
+      "source": 39, 
+      "target": 276
+    }, 
+    {
+      "source": 40, 
+      "target": 231
+    }, 
+    {
+      "source": 41, 
+      "target": 112
+    }, 
+    {
+      "source": 42, 
+      "target": 18
+    }, 
+    {
+      "source": 43, 
+      "target": 188
+    }, 
+    {
+      "source": 44, 
+      "target": 269
+    }, 
+    {
+      "source": 45, 
+      "target": 74
+    }, 
+    {
+      "source": 46, 
+      "target": 378
+    }, 
+    {
+      "source": 47, 
+      "target": 223
+    }, 
+    {
+      "source": 48, 
+      "target": 244
+    }, 
+    {
+      "source": 49, 
+      "target": 187
+    }, 
+    {
+      "source": 50, 
+      "target": 206
+    }, 
+    {
+      "source": 51, 
+      "target": 99
+    }, 
+    {
+      "source": 52, 
+      "target": 53
+    }, 
+    {
+      "source": 54, 
+      "target": 53
+    }, 
+    {
+      "source": 54, 
+      "target": 163
+    }, 
+    {
+      "source": 57, 
+      "target": 292
+    }, 
+    {
+      "source": 57, 
+      "target": 129
+    }, 
+    {
+      "source": 58, 
+      "target": 219
+    }, 
+    {
+      "source": 59, 
+      "target": 239
+    }, 
+    {
+      "source": 60, 
+      "target": 29
+    }, 
+    {
+      "source": 62, 
+      "target": 61
+    }, 
+    {
+      "source": 64, 
+      "target": 74
+    }, 
+    {
+      "source": 65, 
+      "target": 258
+    }, 
+    {
+      "source": 65, 
+      "target": 197
+    }, 
+    {
+      "source": 67, 
+      "target": 66
+    }, 
+    {
+      "source": 68, 
+      "target": 66
+    }, 
+    {
+      "source": 69, 
+      "target": 133
+    }, 
+    {
+      "source": 70, 
+      "target": 24
+    }, 
+    {
+      "source": 71, 
+      "target": 133
+    }, 
+    {
+      "source": 72, 
+      "target": 267
+    }, 
+    {
+      "source": 72, 
+      "target": 266
+    }, 
+    {
+      "source": 73, 
+      "target": 133
+    }, 
+    {
+      "source": 75, 
+      "target": 202
+    }, 
+    {
+      "source": 76, 
+      "target": 126
+    }, 
+    {
+      "source": 76, 
+      "target": 202
+    }, 
+    {
+      "source": 76, 
+      "target": 78
+    }, 
+    {
+      "source": 77, 
+      "target": 76
+    }, 
+    {
+      "source": 77, 
+      "target": 202
+    }, 
+    {
+      "source": 79, 
+      "target": 2
+    }, 
+    {
+      "source": 79, 
+      "target": 414
+    }, 
+    {
+      "source": 80, 
+      "target": 182
+    }, 
+    {
+      "source": 80, 
+      "target": 3
+    }, 
+    {
+      "source": 81, 
+      "target": 2
+    }, 
+    {
+      "source": 81, 
+      "target": 79
+    }, 
+    {
+      "source": 82, 
+      "target": 79
+    }, 
+    {
+      "source": 83, 
+      "target": 79
+    }, 
+    {
+      "source": 84, 
+      "target": 79
+    }, 
+    {
+      "source": 85, 
+      "target": 82
+    }, 
+    {
+      "source": 85, 
+      "target": 414
+    }, 
+    {
+      "source": 85, 
+      "target": 79
+    }, 
+    {
+      "source": 85, 
+      "target": 84
+    }, 
+    {
+      "source": 86, 
+      "target": 85
+    }, 
+    {
+      "source": 86, 
+      "target": 79
+    }, 
+    {
+      "source": 88, 
+      "target": 371
+    }, 
+    {
+      "source": 89, 
+      "target": 107
+    }, 
+    {
+      "source": 91, 
+      "target": 133
+    }, 
+    {
+      "source": 92, 
+      "target": 74
+    }, 
+    {
+      "source": 93, 
+      "target": 133
+    }, 
+    {
+      "source": 94, 
+      "target": 133
+    }, 
+    {
+      "source": 96, 
+      "target": 287
+    }, 
+    {
+      "source": 96, 
+      "target": 303
+    }, 
+    {
+      "source": 96, 
+      "target": 353
+    }, 
+    {
+      "source": 97, 
+      "target": 162
+    }, 
+    {
+      "source": 98, 
+      "target": 97
+    }, 
+    {
+      "source": 98, 
+      "target": 48
+    }, 
+    {
+      "source": 99, 
+      "target": 415
+    }, 
+    {
+      "source": 100, 
+      "target": 99
+    }, 
+    {
+      "source": 101, 
+      "target": 99
+    }, 
+    {
+      "source": 102, 
+      "target": 99
+    }, 
+    {
+      "source": 103, 
+      "target": 99
+    }, 
+    {
+      "source": 105, 
+      "target": 270
+    }, 
+    {
+      "source": 108, 
+      "target": 107
+    }, 
+    {
+      "source": 108, 
+      "target": 74
+    }, 
+    {
+      "source": 109, 
+      "target": 110
+    }, 
+    {
+      "source": 110, 
+      "target": 8
+    }, 
+    {
+      "source": 110, 
+      "target": 106
+    }, 
+    {
+      "source": 114, 
+      "target": 74
+    }, 
+    {
+      "source": 115, 
+      "target": 202
+    }, 
+    {
+      "source": 117, 
+      "target": 61
+    }, 
+    {
+      "source": 118, 
+      "target": 119
+    }, 
+    {
+      "source": 121, 
+      "target": 120
+    }, 
+    {
+      "source": 127, 
+      "target": 24
+    }, 
+    {
+      "source": 128, 
+      "target": 28
+    }, 
+    {
+      "source": 130, 
+      "target": 138
+    }, 
+    {
+      "source": 131, 
+      "target": 190
+    }, 
+    {
+      "source": 131, 
+      "target": 222
+    }, 
+    {
+      "source": 132, 
+      "target": 74
+    }, 
+    {
+      "source": 134, 
+      "target": 194
+    }, 
+    {
+      "source": 134, 
+      "target": 148
+    }, 
+    {
+      "source": 135, 
+      "target": 194
+    }, 
+    {
+      "source": 139, 
+      "target": 418
+    }, 
+    {
+      "source": 139, 
+      "target": 165
+    }, 
+    {
+      "source": 140, 
+      "target": 112
+    }, 
+    {
+      "source": 141, 
+      "target": 61
+    }, 
+    {
+      "source": 142, 
+      "target": 245
+    }, 
+    {
+      "source": 144, 
+      "target": 143
+    }, 
+    {
+      "source": 145, 
+      "target": 143
+    }, 
+    {
+      "source": 146, 
+      "target": 258
+    }, 
+    {
+      "source": 146, 
+      "target": 257
+    }, 
+    {
+      "source": 146, 
+      "target": 197
+    }, 
+    {
+      "source": 146, 
+      "target": 220
+    }, 
+    {
+      "source": 147, 
+      "target": 53
+    }, 
+    {
+      "source": 148, 
+      "target": 242
+    }, 
+    {
+      "source": 149, 
+      "target": 18
+    }, 
+    {
+      "source": 150, 
+      "target": 18
+    }, 
+    {
+      "source": 151, 
+      "target": 303
+    }, 
+    {
+      "source": 152, 
+      "target": 18
+    }, 
+    {
+      "source": 152, 
+      "target": 149
+    }, 
+    {
+      "source": 153, 
+      "target": 18
+    }, 
+    {
+      "source": 154, 
+      "target": 178
+    }, 
+    {
+      "source": 155, 
+      "target": 271
+    }, 
+    {
+      "source": 157, 
+      "target": 214
+    }, 
+    {
+      "source": 157, 
+      "target": 193
+    }, 
+    {
+      "source": 158, 
+      "target": 234
+    }, 
+    {
+      "source": 159, 
+      "target": 234
+    }, 
+    {
+      "source": 160, 
+      "target": 161
+    }, 
+    {
+      "source": 163, 
+      "target": 53
+    }, 
+    {
+      "source": 164, 
+      "target": 246
+    }, 
+    {
+      "source": 165, 
+      "target": 418
+    }, 
+    {
+      "source": 166, 
+      "target": 163
+    }, 
+    {
+      "source": 167, 
+      "target": 182
+    }, 
+    {
+      "source": 168, 
+      "target": 297
+    }, 
+    {
+      "source": 169, 
+      "target": 242
+    }, 
+    {
+      "source": 170, 
+      "target": 169
+    }, 
+    {
+      "source": 171, 
+      "target": 169
+    }, 
+    {
+      "source": 172, 
+      "target": 169
+    }, 
+    {
+      "source": 173, 
+      "target": 169
+    }, 
+    {
+      "source": 174, 
+      "target": 169
+    }, 
+    {
+      "source": 174, 
+      "target": 278
+    }, 
+    {
+      "source": 175, 
+      "target": 195
+    }, 
+    {
+      "source": 176, 
+      "target": 181
+    }, 
+    {
+      "source": 179, 
+      "target": 56
+    }, 
+    {
+      "source": 183, 
+      "target": 224
+    }, 
+    {
+      "source": 184, 
+      "target": 371
+    }, 
+    {
+      "source": 185, 
+      "target": 218
+    }, 
+    {
+      "source": 191, 
+      "target": 186
+    }, 
+    {
+      "source": 192, 
+      "target": 133
+    }, 
+    {
+      "source": 201, 
+      "target": 249
+    }, 
+    {
+      "source": 205, 
+      "target": 252
+    }, 
+    {
+      "source": 207, 
+      "target": 206
+    }, 
+    {
+      "source": 208, 
+      "target": 206
+    }, 
+    {
+      "source": 209, 
+      "target": 211
+    }, 
+    {
+      "source": 210, 
+      "target": 211
+    }, 
+    {
+      "source": 212, 
+      "target": 211
+    }, 
+    {
+      "source": 213, 
+      "target": 234
+    }, 
+    {
+      "source": 215, 
+      "target": 55
+    }, 
+    {
+      "source": 216, 
+      "target": 133
+    }, 
+    {
+      "source": 218, 
+      "target": 270
+    }, 
+    {
+      "source": 220, 
+      "target": 258
+    }, 
+    {
+      "source": 220, 
+      "target": 257
+    }, 
+    {
+      "source": 220, 
+      "target": 197
+    }, 
+    {
+      "source": 226, 
+      "target": 263
+    }, 
+    {
+      "source": 226, 
+      "target": 260
+    }, 
+    {
+      "source": 226, 
+      "target": 261
+    }, 
+    {
+      "source": 226, 
+      "target": 262
+    }, 
+    {
+      "source": 227, 
+      "target": 243
+    }, 
+    {
+      "source": 227, 
+      "target": 247
+    }, 
+    {
+      "source": 228, 
+      "target": 227
+    }, 
+    {
+      "source": 228, 
+      "target": 229
+    }, 
+    {
+      "source": 229, 
+      "target": 227
+    }, 
+    {
+      "source": 230, 
+      "target": 234
+    }, 
+    {
+      "source": 235, 
+      "target": 234
+    }, 
+    {
+      "source": 236, 
+      "target": 199
+    }, 
+    {
+      "source": 237, 
+      "target": 199
+    }, 
+    {
+      "source": 237, 
+      "target": 238
+    }, 
+    {
+      "source": 242, 
+      "target": 286
+    }, 
+    {
+      "source": 242, 
+      "target": 275
+    }, 
+    {
+      "source": 250, 
+      "target": 60
+    }, 
+    {
+      "source": 251, 
+      "target": 268
+    }, 
+    {
+      "source": 251, 
+      "target": 267
+    }, 
+    {
+      "source": 251, 
+      "target": 252
+    }, 
+    {
+      "source": 251, 
+      "target": 266
+    }, 
+    {
+      "source": 254, 
+      "target": 255
+    }, 
+    {
+      "source": 256, 
+      "target": 225
+    }, 
+    {
+      "source": 261, 
+      "target": 264
+    }, 
+    {
+      "source": 262, 
+      "target": 260
+    }, 
+    {
+      "source": 264, 
+      "target": 259
+    }, 
+    {
+      "source": 272, 
+      "target": 133
+    }, 
+    {
+      "source": 273, 
+      "target": 87
+    }, 
+    {
+      "source": 274, 
+      "target": 2
+    }, 
+    {
+      "source": 275, 
+      "target": 242
+    }, 
+    {
+      "source": 279, 
+      "target": 301
+    }, 
+    {
+      "source": 279, 
+      "target": 12
+    }, 
+    {
+      "source": 280, 
+      "target": 97
+    }, 
+    {
+      "source": 281, 
+      "target": 223
+    }, 
+    {
+      "source": 282, 
+      "target": 113
+    }, 
+    {
+      "source": 283, 
+      "target": 277
+    }, 
+    {
+      "source": 284, 
+      "target": 6
+    }, 
+    {
+      "source": 288, 
+      "target": 125
+    }, 
+    {
+      "source": 288, 
+      "target": 27
+    }, 
+    {
+      "source": 289, 
+      "target": 21
+    }, 
+    {
+      "source": 290, 
+      "target": 361
+    }, 
+    {
+      "source": 290, 
+      "target": 197
+    }, 
+    {
+      "source": 290, 
+      "target": 65
+    }, 
+    {
+      "source": 291, 
+      "target": 301
+    }, 
+    {
+      "source": 293, 
+      "target": 13
+    }, 
+    {
+      "source": 293, 
+      "target": 11
+    }, 
+    {
+      "source": 293, 
+      "target": 12
+    }, 
+    {
+      "source": 293, 
+      "target": 291
+    }, 
+    {
+      "source": 293, 
+      "target": 279
+    }, 
+    {
+      "source": 293, 
+      "target": 301
+    }, 
+    {
+      "source": 293, 
+      "target": 294
+    }, 
+    {
+      "source": 294, 
+      "target": 301
+    }, 
+    {
+      "source": 295, 
+      "target": 37
+    }, 
+    {
+      "source": 298, 
+      "target": 297
+    }, 
+    {
+      "source": 300, 
+      "target": 299
+    }, 
+    {
+      "source": 303, 
+      "target": 253
+    }, 
+    {
+      "source": 303, 
+      "target": 90
+    }, 
+    {
+      "source": 303, 
+      "target": 352
+    }, 
+    {
+      "source": 304, 
+      "target": 303
+    }, 
+    {
+      "source": 306, 
+      "target": 352
+    }, 
+    {
+      "source": 307, 
+      "target": 303
+    }, 
+    {
+      "source": 308, 
+      "target": 351
+    }, 
+    {
+      "source": 308, 
+      "target": 303
+    }, 
+    {
+      "source": 309, 
+      "target": 253
+    }, 
+    {
+      "source": 309, 
+      "target": 303
+    }, 
+    {
+      "source": 310, 
+      "target": 352
+    }, 
+    {
+      "source": 310, 
+      "target": 303
+    }, 
+    {
+      "source": 311, 
+      "target": 351
+    }, 
+    {
+      "source": 311, 
+      "target": 303
+    }, 
+    {
+      "source": 312, 
+      "target": 351
+    }, 
+    {
+      "source": 312, 
+      "target": 303
+    }, 
+    {
+      "source": 314, 
+      "target": 351
+    }, 
+    {
+      "source": 314, 
+      "target": 303
+    }, 
+    {
+      "source": 315, 
+      "target": 303
+    }, 
+    {
+      "source": 316, 
+      "target": 303
+    }, 
+    {
+      "source": 317, 
+      "target": 351
+    }, 
+    {
+      "source": 317, 
+      "target": 303
+    }, 
+    {
+      "source": 318, 
+      "target": 303
+    }, 
+    {
+      "source": 319, 
+      "target": 303
+    }, 
+    {
+      "source": 320, 
+      "target": 352
+    }, 
+    {
+      "source": 320, 
+      "target": 303
+    }, 
+    {
+      "source": 321, 
+      "target": 303
+    }, 
+    {
+      "source": 322, 
+      "target": 303
+    }, 
+    {
+      "source": 323, 
+      "target": 233
+    }, 
+    {
+      "source": 323, 
+      "target": 303
+    }, 
+    {
+      "source": 324, 
+      "target": 352
+    }, 
+    {
+      "source": 324, 
+      "target": 303
+    }, 
+    {
+      "source": 325, 
+      "target": 303
+    }, 
+    {
+      "source": 326, 
+      "target": 351
+    }, 
+    {
+      "source": 326, 
+      "target": 303
+    }, 
+    {
+      "source": 327, 
+      "target": 351
+    }, 
+    {
+      "source": 327, 
+      "target": 303
+    }, 
+    {
+      "source": 328, 
+      "target": 303
+    }, 
+    {
+      "source": 329, 
+      "target": 303
+    }, 
+    {
+      "source": 330, 
+      "target": 303
+    }, 
+    {
+      "source": 331, 
+      "target": 303
+    }, 
+    {
+      "source": 332, 
+      "target": 303
+    }, 
+    {
+      "source": 333, 
+      "target": 352
+    }, 
+    {
+      "source": 333, 
+      "target": 303
+    }, 
+    {
+      "source": 334, 
+      "target": 303
+    }, 
+    {
+      "source": 335, 
+      "target": 303
+    }, 
+    {
+      "source": 336, 
+      "target": 203
+    }, 
+    {
+      "source": 336, 
+      "target": 303
+    }, 
+    {
+      "source": 336, 
+      "target": 233
+    }, 
+    {
+      "source": 337, 
+      "target": 203
+    }, 
+    {
+      "source": 337, 
+      "target": 303
+    }, 
+    {
+      "source": 338, 
+      "target": 351
+    }, 
+    {
+      "source": 338, 
+      "target": 303
+    }, 
+    {
+      "source": 339, 
+      "target": 303
+    }, 
+    {
+      "source": 340, 
+      "target": 303
+    }, 
+    {
+      "source": 341, 
+      "target": 352
+    }, 
+    {
+      "source": 342, 
+      "target": 303
+    }, 
+    {
+      "source": 343, 
+      "target": 352
+    }, 
+    {
+      "source": 343, 
+      "target": 303
+    }, 
+    {
+      "source": 344, 
+      "target": 303
+    }, 
+    {
+      "source": 345, 
+      "target": 303
+    }, 
+    {
+      "source": 346, 
+      "target": 352
+    }, 
+    {
+      "source": 346, 
+      "target": 303
+    }, 
+    {
+      "source": 347, 
+      "target": 351
+    }, 
+    {
+      "source": 347, 
+      "target": 303
+    }, 
+    {
+      "source": 348, 
+      "target": 351
+    }, 
+    {
+      "source": 348, 
+      "target": 303
+    }, 
+    {
+      "source": 349, 
+      "target": 303
+    }, 
+    {
+      "source": 350, 
+      "target": 303
+    }, 
+    {
+      "source": 351, 
+      "target": 95
+    }, 
+    {
+      "source": 351, 
+      "target": 305
+    }, 
+    {
+      "source": 351, 
+      "target": 313
+    }, 
+    {
+      "source": 351, 
+      "target": 74
+    }, 
+    {
+      "source": 352, 
+      "target": 313
+    }, 
+    {
+      "source": 353, 
+      "target": 352
+    }, 
+    {
+      "source": 353, 
+      "target": 303
+    }, 
+    {
+      "source": 354, 
+      "target": 303
+    }, 
+    {
+      "source": 355, 
+      "target": 351
+    }, 
+    {
+      "source": 355, 
+      "target": 303
+    }, 
+    {
+      "source": 356, 
+      "target": 303
+    }, 
+    {
+      "source": 357, 
+      "target": 303
+    }, 
+    {
+      "source": 358, 
+      "target": 9
+    }, 
+    {
+      "source": 358, 
+      "target": 253
+    }, 
+    {
+      "source": 358, 
+      "target": 303
+    }, 
+    {
+      "source": 359, 
+      "target": 352
+    }, 
+    {
+      "source": 359, 
+      "target": 303
+    }, 
+    {
+      "source": 360, 
+      "target": 351
+    }, 
+    {
+      "source": 360, 
+      "target": 303
+    }, 
+    {
+      "source": 361, 
+      "target": 197
+    }, 
+    {
+      "source": 362, 
+      "target": 200
+    }, 
+    {
+      "source": 363, 
+      "target": 364
+    }, 
+    {
+      "source": 365, 
+      "target": 302
+    }, 
+    {
+      "source": 366, 
+      "target": 33
+    }, 
+    {
+      "source": 368, 
+      "target": 367
+    }, 
+    {
+      "source": 369, 
+      "target": 367
+    }, 
+    {
+      "source": 369, 
+      "target": 126
+    }, 
+    {
+      "source": 369, 
+      "target": 122
+    }, 
+    {
+      "source": 370, 
+      "target": 126
+    }, 
+    {
+      "source": 370, 
+      "target": 124
+    }, 
+    {
+      "source": 370, 
+      "target": 123
+    }, 
+    {
+      "source": 370, 
+      "target": 122
+    }, 
+    {
+      "source": 372, 
+      "target": 186
+    }, 
+    {
+      "source": 373, 
+      "target": 217
+    }, 
+    {
+      "source": 375, 
+      "target": 374
+    }, 
+    {
+      "source": 376, 
+      "target": 265
+    }, 
+    {
+      "source": 377, 
+      "target": 133
+    }, 
+    {
+      "source": 379, 
+      "target": 378
+    }, 
+    {
+      "source": 380, 
+      "target": 378
+    }, 
+    {
+      "source": 381, 
+      "target": 378
+    }, 
+    {
+      "source": 382, 
+      "target": 378
+    }, 
+    {
+      "source": 383, 
+      "target": 378
+    }, 
+    {
+      "source": 384, 
+      "target": 378
+    }, 
+    {
+      "source": 384, 
+      "target": 24
+    }, 
+    {
+      "source": 385, 
+      "target": 378
+    }, 
+    {
+      "source": 386, 
+      "target": 378
+    }, 
+    {
+      "source": 387, 
+      "target": 378
+    }, 
+    {
+      "source": 388, 
+      "target": 378
+    }, 
+    {
+      "source": 389, 
+      "target": 378
+    }, 
+    {
+      "source": 390, 
+      "target": 378
+    }, 
+    {
+      "source": 391, 
+      "target": 378
+    }, 
+    {
+      "source": 392, 
+      "target": 378
+    }, 
+    {
+      "source": 393, 
+      "target": 378
+    }, 
+    {
+      "source": 393, 
+      "target": 133
+    }, 
+    {
+      "source": 394, 
+      "target": 378
+    }, 
+    {
+      "source": 394, 
+      "target": 137
+    }, 
+    {
+      "source": 395, 
+      "target": 378
+    }, 
+    {
+      "source": 396, 
+      "target": 378
+    }, 
+    {
+      "source": 397, 
+      "target": 378
+    }, 
+    {
+      "source": 398, 
+      "target": 378
+    }, 
+    {
+      "source": 399, 
+      "target": 378
+    }, 
+    {
+      "source": 399, 
+      "target": 296
+    }, 
+    {
+      "source": 400, 
+      "target": 378
+    }, 
+    {
+      "source": 401, 
+      "target": 378
+    }, 
+    {
+      "source": 402, 
+      "target": 378
+    }, 
+    {
+      "source": 403, 
+      "target": 378
+    }, 
+    {
+      "source": 404, 
+      "target": 378
+    }, 
+    {
+      "source": 405, 
+      "target": 378
+    }, 
+    {
+      "source": 406, 
+      "target": 378
+    }, 
+    {
+      "source": 407, 
+      "target": 378
+    }, 
+    {
+      "source": 408, 
+      "target": 378
+    }, 
+    {
+      "source": 409, 
+      "target": 291
+    }, 
+    {
+      "source": 409, 
+      "target": 301
+    }, 
+    {
+      "source": 410, 
+      "target": 189
+    }, 
+    {
+      "source": 411, 
+      "target": 301
+    }, 
+    {
+      "source": 413, 
+      "target": 221
+    }, 
+    {
+      "source": 416, 
+      "target": 198
+    }, 
+    {
+      "source": 416, 
+      "target": 156
+    }, 
+    {
+      "source": 416, 
+      "target": 104
+    }, 
+    {
+      "source": 416, 
+      "target": 136
+    }, 
+    {
+      "source": 416, 
+      "target": 240
+    }, 
+    {
+      "source": 416, 
+      "target": 285
+    }, 
+    {
+      "source": 417, 
+      "target": 302
+    }, 
+    {
+      "source": 419, 
+      "target": 187
+    }, 
+    {
+      "source": 419, 
+      "target": 177
+    }, 
+    {
+      "source": 420, 
+      "target": 74
+    }, 
+    {
+      "source": 420, 
+      "target": 16
+    }, 
+    {
+      "source": 421, 
+      "target": 271
+    }, 
+    {
+      "source": 422, 
+      "target": 63
+    }, 
+    {
+      "source": 423, 
+      "target": 111
+    }
+  ], 
+  "nodes": [
+    {
+      "color": "#d6b1af", 
+      "name": "Mayavi", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.346352816536287, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "PyMca", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.502648789955257, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c7c7c7", 
+      "name": "PyQwt", 
+      "num_requirements": 0, 
+      "num_requirers": 4, 
+      "size": 5.859504803746698, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "PyRTF", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.4201125959556515, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "R2spec", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.267304880637587, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "RunSnakeRun", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.45929721646585, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "Singular", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.92605199523234, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "Zim", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.467360128668788, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "a2jmidid", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#aecdd4", 
+      "name": "abiword", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.9974178695665277, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "ailurus", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.927669009914748, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "airinv", 
+      "num_requirements": 5, 
+      "num_requirers": 1, 
+      "size": 5.001043777433704, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cb9d9b", 
+      "name": "airrac", 
+      "num_requirements": 2, 
+      "num_requirers": 3, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "airtsp", 
+      "num_requirements": 2, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "archmage", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.192237800581602, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "autocloud", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.374984341527165, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "avahi", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.098125541309709, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "beaker", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.264329939918283, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c18e8b", 
+      "name": "bitfrost", 
+      "num_requirements": 1, 
+      "num_requirers": 5, 
+      "size": 5.446765410496949, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "bitten", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.8866476564507515, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "bkchem", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.239297277466008, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "blktrace", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.997417869566528, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cfa4a2", 
+      "name": "bodhi", 
+      "num_requirements": 3, 
+      "num_requirers": 2, 
+      "size": 6.131455047585574, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "bup", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.060566433129507, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cccccc", 
+      "name": "bzr", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 6.74015250404385, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "cachedir", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.641585341512024, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "calibre", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.945212687854029, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "ccnet", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.395637363360491, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "ceph", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.531395321927921, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "certmaster", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.422477553078627, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "cherrytree", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.16464552377859, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "childsplay", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.960134889172449, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "chm2pdf", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.573665708788922, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#aecdd4", 
+      "name": "clang", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.201928992330029, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "cloud-utils", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.226924640425237, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "cmdtest", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.460851155711081, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "cmusphinx3", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.033461473417418, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "cobbler", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.206675636819137, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "darkserver", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.310242060509183, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "deluge", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.174922841523781, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "did", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.61943944102598, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "dpm-contrib-admintools", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.503352137532726, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "dracut-modules-olpc", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.2016072029591385, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "duplicity", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.0971781333458495, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "dwscan", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.887861375411373, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "earcandy", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.596105681586603, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "email2trac", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "encuentro", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.300164815536153, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cfa4a2", 
+      "name": "euca2ools", 
+      "num_requirements": 1, 
+      "num_requirers": 2, 
+      "size": 6.059812283620453, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "exaile", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.243213728651218, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "fedmsg-notify", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.355591369995698, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "fedora-business-cards", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.0961477966769655, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "fedora-easy-karma", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.3324482978032695, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c2c2c2", 
+      "name": "fedora-packager", 
+      "num_requirements": 3, 
+      "num_requirers": 5, 
+      "size": 5.187073539714658, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "fedora-review", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.914679481284496, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#aecdd4", 
+      "name": "fio", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.27702742411099, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "flow-tools", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "flr", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.173870295158377, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "flumotion", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.349179531704099, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "freecad", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.831531866494909, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "func", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.934840260039255, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c7c7c7", 
+      "name": "fuse-python", 
+      "num_requirements": 0, 
+      "num_requirers": 4, 
+      "size": 5.432124819449627, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "fuse-s3fs", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.304375419757054, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "gamin", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.628133198143457, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gcompris", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.197493523755177, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "genbackupdata", 
+      "num_requirements": 2, 
+      "num_requirers": 1, 
+      "size": 5.03723921042858, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "gimp", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 6.066197379565286, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gimp-layer-via-copy-cut", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gimp-resynthesizer", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "git-cinnabar", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "git-remote-bzr", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "git-remote-hg", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "github2fedmsg", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.1952870083313325, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gitifyhg", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.230177251579803, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#ababab", 
+      "name": "gnome-python2-desktop", 
+      "num_requirements": 0, 
+      "num_requirers": 9, 
+      "size": 5.607300599261953, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gnue-common", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.084052897499443, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "gnumed", 
+      "num_requirements": 3, 
+      "num_requirers": 1, 
+      "size": 6.590215400099643, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gnumed-server", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.073947265302635, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "gnuplot-py", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.865350116440735, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#bc8683", 
+      "name": "gnuradio", 
+      "num_requirements": 2, 
+      "num_requirers": 6, 
+      "size": 6.486720335684117, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gourmet", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.204949741542803, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gr-air-modes", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.915888003992414, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "gr-fcdproplus", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.8404744206569505, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gr-hpsdr", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "gr-iqbal", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.8353492647469904, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "gr-osmosdr", 
+      "num_requirements": 4, 
+      "num_requirers": 1, 
+      "size": 5.908859656289664, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gr-rds", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.839907001514672, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "grass", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.6526418315874345, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gresistor", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.905198337961096, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "guake", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.897994841291222, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "gwebsockets", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.974511010745569, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "gwsmhg", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.85246900219601, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "hamster-time-tracker", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.9321203501949915, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "hg-git", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.732171068246949, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "hgview", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.783878918399111, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "hippo-canvas", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.923392576177266, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "icaro", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.8430524163482005, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cfa4a2", 
+      "name": "imagefactory", 
+      "num_requirements": 1, 
+      "num_requirers": 2, 
+      "size": 5.780317954284991, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "imagefactory-plugins", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.869816518951014, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c18e8b", 
+      "name": "inkscape", 
+      "num_requirements": 1, 
+      "num_requirers": 5, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "inkscape-psd", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.1989650893222, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "inkscape-sozi", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.29994127182393, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "inkscape-table", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.3373248710812, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "inksmoto", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.718146347431473, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "ioprocess", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.437664836691045, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "jabber-roster", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.641585341512024, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "jack-audio-connection-kit", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "keybinder", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 4.393785020337274, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "kupfer", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.1508627057335605, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "ladish", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.713043411260765, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "laditools", 
+      "num_requirements": 2, 
+      "num_requirers": 1, 
+      "size": 5.4976373908450675, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "lash", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.429847844626434, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#a8c9d0", 
+      "name": "lcgdm", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 6.41069174903075, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "lcms", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.1443777595729605, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "ldtp", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.667121322172827, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "lekhonee", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.943913304098967, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "libappindicator", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 4.238843241434321, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "libewf", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.773500034789905, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "libkolab", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "libkolabxml", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.666748811327171, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "libopensync", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "libopensync-plugin-python", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.99814717738973, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "librapi", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 4.991507265925197, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "librra", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "librtfcomp", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "libsearpc", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.211278806191074, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#c7c7c7", 
+      "name": "libxslt", 
+      "num_requirements": 0, 
+      "num_requirers": 4, 
+      "size": 5.698414154164792, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "loggerhead", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.570270736574301, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "lrbd", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.487425880644741, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "mash", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.351054115293935, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "mate-menu", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.599799809295898, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "matrix-synapse", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.293876295874771, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "memaker", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.354870799487164, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#9e9e9e", 
+      "name": "mercurial", 
+      "num_requirements": 0, 
+      "num_requirers": 11, 
+      "size": 6.623630448585091, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "meta-test-family", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "modularity-testing-framework", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.4982558319982635, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "mom", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.684193133612995, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "monotone", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "mozo", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.526768838175312, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "mrpt", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.097632537842262, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "nagios-plugins-lcgdm", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.527320739545447, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "nfspy", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.501732347757061, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "nicotine+", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.263206641054435, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "nordugrid-arc", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.731675836154107, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "nordugrid-arc-gangliarc", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.284737632541673, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "nordugrid-arc-nagios-plugins", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.75776836673259, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "obnam", 
+      "num_requirements": 4, 
+      "num_requirers": 0, 
+      "size": 6.095929307646609, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "oct2spec", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.237419158538661, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#aecdd4", 
+      "name": "odcs", 
+      "num_requirements": 3, 
+      "num_requirers": 1, 
+      "size": 5.458817174599636, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "olpc-contents", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.175694872631053, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-os-builder", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.203571019675287, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-switch-desktop", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.854367640271116, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-update", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.143166531425109, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "olpc-utils", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.99668647502282, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "openerp", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.517650288998707, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "openteacher", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.206288809003933, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "openvswitch", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.149891138593423, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "openxcap", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.796334730376818, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "os-collect-config", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.703445699809722, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "os-net-config", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.718842273588416, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "ovirt-engine-cli", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.76620672052601, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "ovirt-engine-sdk-python", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.559380611500302, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "oz", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.852340205791494, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cb9d9b", 
+      "name": "packagedb-cli", 
+      "num_requirements": 3, 
+      "num_requirers": 3, 
+      "size": 5.724979389862706, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pagekite", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.856607275788702, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "pcl", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.062226840441041, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pdc-updater", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.622243602185754, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pdfshuffler", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.267050656629925, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pocketsphinx", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.918467140197175, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c18e8b", 
+      "name": "pulp", 
+      "num_requirements": 2, 
+      "num_requirers": 5, 
+      "size": 6.4878765811176, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pulp-docker", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.8322742814441195, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pulp-ostree", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.684838958238376, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pulp-puppet", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.961399305033108, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pulp-python", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.651328353062739, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pulp-rpm", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 6.270381204087769, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pybliographer", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.84671332015809, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pycam", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.011484546677886, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "pycdio", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.472498829753645, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "pychart", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.908218558200481, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pyflowtools", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.195623574829771, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "pyfribidi", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.999599580266591, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "pygtkglext", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.588263894305577, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "pypoppler", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.6153700689780885, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pyrasite", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.203571019675287, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pysdm", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.282831773061552, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "pysysbot", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.839907001514672, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-4Suite-XML", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 6.387762503688203, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-CDDB", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.08705355706801, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-GnuPGInterface", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.969672590864281, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-adns", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.296564443078681, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-affinity", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.730101241402529, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-amara", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.788153860464811, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-anyvc", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.486672942784798, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-application", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.634192765888977, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-avocado", 
+      "num_requirements": 1, 
+      "num_requirers": 2, 
+      "size": 6.062939999895446, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-bibtex", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.250773518747207, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-chm", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.454333522277406, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#82aeb8", 
+      "name": "python-cliapp", 
+      "num_requirements": 0, 
+      "num_requirers": 7, 
+      "size": 5.676261919730292, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-cpopen", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.309596821078739, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-decoratortools", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.162640573562985, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-dictclient", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.8371875905627695, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-dslib", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.658688105235175, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c7c7c7", 
+      "name": "python-egenix-mx-base", 
+      "num_requirements": 0, 
+      "num_requirers": 4, 
+      "size": 6.394088488342562, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-elements", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.763558513777069, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-elfdata", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.607031664761992, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-fedbadges", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.173870295158377, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cccccc", 
+      "name": "python-fmn", 
+      "num_requirements": 1, 
+      "num_requirers": 3, 
+      "size": 5.780215479952636, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-fmn-consumer", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.470211367342611, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-fmn-lib", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.4838567373152864, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "python-gencpp", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.941288730027972, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "python-genlisp", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.181802791773215, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#a1c4cc", 
+      "name": "python-genmsg", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 5.417301987996466, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-genpy", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.537321685970982, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "python-glance-store", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.796623261161539, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-gnutls", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.764214049103623, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-hardware", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.812764037461113, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-hghooks", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.164166680893699, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-humblewx", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.968039216497641, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "python-jabberbot", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.172401197904196, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-kiwi-gtk", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "python-larch", 
+      "num_requirements": 3, 
+      "num_requirers": 1, 
+      "size": 5.654644154397044, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-libturpial", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.747803846974139, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-matrix-synapse-ldap3", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.048846514239418, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cccccc", 
+      "name": "python-mechanize", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 6.192877758530358, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-meliae", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.5505791422634445, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-modestmaps", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.177145215350928, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-moksha-wsgi", 
+      "num_requirements": 4, 
+      "num_requirers": 0, 
+      "size": 5.354329035486486, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cfa4a2", 
+      "name": "python-mwlib", 
+      "num_requirements": 2, 
+      "num_requirers": 2, 
+      "size": 6.18125545869882, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-mwlib-docbook", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.257726016015134, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "python-mwlib-xhtml", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.249959002225962, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-networking-bigswitch", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.695051590157022, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-nitrate", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.797678429739033, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-oasa", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.851927620662262, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-olpcgames", 
+      "num_requirements": 1, 
+      "num_requirers": 2, 
+      "size": 5.462632502422597, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#c2c2c2", 
+      "name": "python-oslo-config", 
+      "num_requirements": 0, 
+      "num_requirers": 5, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "python-oslo-policy", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.6196956397130595, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-peak-util-addons", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.986220945980543, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-peak-util-assembler", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.362337347815631, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-peak-util-symbols", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.847895846023189, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-pivy", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.165872730954865, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-pthreading", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.952849269917994, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-pyface", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cb9d9b", 
+      "name": "python-qpid", 
+      "num_requirements": 2, 
+      "num_requirers": 3, 
+      "size": 6.0861983395443, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-qserve", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.317860505070789, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-requestbuilder", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.649568761618825, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-sexy", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.265775730203337, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-socksipychain", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.232808035197963, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-sqlite3dbm", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.9357714895523355, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-squaremap", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.071685107011465, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-sudsds", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.7307239511346815, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-taboot", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.4060354565476665, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-tahrir", 
+      "num_requirements": 4, 
+      "num_requirers": 0, 
+      "size": 5.567459098123963, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-tahrir-api", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.462632502422597, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cccccc", 
+      "name": "python-telepathy", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 5.5015291504342505, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-tg-devtools", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.112955309687893, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#aecdd4", 
+      "name": "python-tgext-admin", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.198632896658639, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-tilestache", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.750772869089257, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-tracing", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 4.830259735143672, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#99bfc7", 
+      "name": "python-ttystatus", 
+      "num_requirements": 0, 
+      "num_requirers": 4, 
+      "size": 5.416027061569879, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-tw2-dynforms", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.021116451598287, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-tw2-excanvas", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 4.570968840472832, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "python-tw2-jit", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.620590318391603, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "python-tw2-jqplugins-flot", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 4.694478873968302, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-tw2-jqplugins-gritter", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 4.589635687501483, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "python-tw2-sqla", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.509237943275315, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-txsocksx", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.3234289381729685, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-velruse", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.608239648090479, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-weberror", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.613737111983488, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-webhelpers", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.789837437694218, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "python-wifi", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.429847844626434, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "python-xmpp", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.727721012416364, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "pyttsx", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.402166827595947, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "qct", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.552418158962489, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "qgis", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.747846505292919, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "qmforge", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.812071253082712, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "qpid-cpp", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 6.148923940017602, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "rb_libtorrent", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.900546688666944, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "rdiff-backup", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.827520344710232, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "repoview", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.10444953432852, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cfa4a2", 
+      "name": "rmol", 
+      "num_requirements": 3, 
+      "num_requirers": 2, 
+      "size": 4.351785509837644, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "rpm-ostree-toolbox", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.5350139697126055, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "rssdler", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.202918089004493, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sK1", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.339065585937699, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "safekeep", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.645260904044981, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sagemath", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.979541987398611, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "sanlock", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.501732347757061, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "saslwrapper", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "sdcc", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "seafile", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.713753350182326, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "seekwatcher", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.217529049563937, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "seivot", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.197299792105861, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cb9d9b", 
+      "name": "sevmgr", 
+      "num_requirements": 2, 
+      "num_requirers": 3, 
+      "size": 4.772163720794863, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "sigul", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.894981492704941, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "simcrs", 
+      "num_requirements": 8, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "simfqt", 
+      "num_requirements": 2, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "spacewalk-koan", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.205196086932469, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "sphinx-webtools", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.203571019675287, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#cccccc", 
+      "name": "sphinxbase", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 4.570968840472832, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sphinxtrain", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.708017852081783, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "statscache", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.200289559739375, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "statscache-plugins", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.175694872631053, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#ababab", 
+      "name": "stdair", 
+      "num_requirements": 1, 
+      "num_requirers": 9, 
+      "size": 4.82023404943097, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "subversion", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 6.772763112702377, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#000000", 
+      "name": "sugar", 
+      "num_requirements": 3, 
+      "num_requirers": 53, 
+      "size": 6.313248812443467, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-abacus", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "sugar-base", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.086538708518065, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-browse", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-calculator", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-castle", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.390353798099185, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-chat", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-clock", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-connect", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-countries", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.284974868956506, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "sugar-datastore", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.398086457243237, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-deducto", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-distance", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-finance", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-flipsticks", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.578449510892383, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-fototoon", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-fractionbounce", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-getiabooks", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-hello-world", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-imageviewer", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-implode", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-infoslicer", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-jukebox", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-kuku", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.343056551090422, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-labyrinth", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.746559751591205, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-locosugar", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-log", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.343999459642529, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-maze", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-measure", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.7046423490394575, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-memorize", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-moon", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.113883159050113, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-nutrition", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-paint", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.578148424616542, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-physics", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.780931939092509, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-pippy", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.710856876376565, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-playgo", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-portfolio", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-pukllanapac", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-read", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-recall", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.317443162580313, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-record", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.5466054408527175, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-ruler", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-runner", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-speak", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-srilanka", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.470441036916585, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-starchart", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-stopwatch", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-terminal", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.2720877106175905, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#95514f", 
+      "name": "sugar-toolkit", 
+      "num_requirements": 4, 
+      "num_requirers": 12, 
+      "size": 5.853522692016941, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#95514f", 
+      "name": "sugar-toolkit-gtk3", 
+      "num_requirements": 1, 
+      "num_requirers": 12, 
+      "size": 6.02735048652676, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "sugar-turtleart", 
+      "num_requirements": 2, 
+      "num_requirers": 1, 
+      "size": 6.201350795058966, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-typing-turtle", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.529334243980406, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-view-slides", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-visualmatch", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-words", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-write", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-xoirc", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.622306976976865, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "sugar-xomail", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "summain", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 5.373981900169397, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "supybot", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.138936043708098, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "supybot-fedmsg", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.715123271133758, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "supybot-meetbot", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.3729755121819345, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "svnmailer", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.632371654752889, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "swift-lang", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "synce-connector", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 4.839907001514672, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "synce-gnome", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "synce-kpm", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.491369265951157, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "synce-sync-engine", 
+      "num_requirements": 4, 
+      "num_requirers": 0, 
+      "size": 5.828342418536629, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "tepache", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 5.148074628803364, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "testoob", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.7604030968187825, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "timeline", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.3727737582498865, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "tomoe", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.2016072029591385, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "tomoe-gtk", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 4.290139129823451, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "torbrowser-launcher", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.393785020337274, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "tortoisehg", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.3658763793619055, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#070707", 
+      "name": "trac", 
+      "num_requirements": 0, 
+      "num_requirers": 32, 
+      "size": 6.494160841005471, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-CGit-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.765012982672007, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-accountmanager-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.846607941523747, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-advancedticketworkflow-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.932026042052016, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-authopenid-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.177145215350928, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-batchmodify-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.963075522309198, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-bazaar-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.281633354464077, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-blackmagictickettweaks-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.9357714895523355, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-code-comments-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.127411300725383, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-customfieldadmin-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.821690590230125, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-doxygen-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.019781606692235, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-fedmsg-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.6968567722192605, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-git-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.321586238989722, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-iniadmin-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.866839490283688, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-mastertickets-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.14766920093307, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-mercurial-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.421784245849616, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-monotone-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.192237800581602, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-navadd-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.4230308481401766, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-privateticketsplugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.715123271133758, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-sensitivetickets-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.789211517908054, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-spamfilter-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.834273075266555, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-sphinx-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 4.855642566697703, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-sumfields-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.5, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-themeengine-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.975308584617684, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-tickettemplate-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.158396182610019, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-tocmacro-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.82023404943097, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-tracnav-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.860679620685369, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-vatar-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.964740819525536, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-watchlist-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.127411300725383, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-workflowadmin-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.034726932529747, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-xmlrpc-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.479573386169401, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trademgen", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 4.863161409292821, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "transmission-remote-cli", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.544552239303004, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "travelccm", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#aecdd4", 
+      "name": "tunir", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.418851645211451, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "turpial", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.84951619472198, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d0d0d0", 
+      "name": "uhd", 
+      "num_requirements": 0, 
+      "num_requirers": 2, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "uniconvertor", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 6.024147240581581, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "vdsm", 
+      "num_requirements": 6, 
+      "num_requirers": 0, 
+      "size": 6.566589053326672, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "viewvc", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 6.074509690653036, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#a1c4cc", 
+      "name": "vtk", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 6.624736291151432, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "whipper", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 3.677183820135558, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "winswitch", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 6.165562697904567, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "writetype", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.870968945669951, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "yum-updatesd", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.182865671552525, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "zynjacku", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.720789468757469, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }
+  ]
+}

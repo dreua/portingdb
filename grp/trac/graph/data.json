@@ -1,0 +1,457 @@
+{
+  "links": [
+    {
+      "source": 5, 
+      "target": 4
+    }, 
+    {
+      "source": 6, 
+      "target": 4
+    }, 
+    {
+      "source": 7, 
+      "target": 4
+    }, 
+    {
+      "source": 8, 
+      "target": 4
+    }, 
+    {
+      "source": 9, 
+      "target": 4
+    }, 
+    {
+      "source": 10, 
+      "target": 4
+    }, 
+    {
+      "source": 10, 
+      "target": 0
+    }, 
+    {
+      "source": 11, 
+      "target": 4
+    }, 
+    {
+      "source": 12, 
+      "target": 4
+    }, 
+    {
+      "source": 13, 
+      "target": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 4
+    }, 
+    {
+      "source": 15, 
+      "target": 4
+    }, 
+    {
+      "source": 16, 
+      "target": 4
+    }, 
+    {
+      "source": 17, 
+      "target": 4
+    }, 
+    {
+      "source": 18, 
+      "target": 4
+    }, 
+    {
+      "source": 19, 
+      "target": 4
+    }, 
+    {
+      "source": 19, 
+      "target": 1
+    }, 
+    {
+      "source": 20, 
+      "target": 4
+    }, 
+    {
+      "source": 20, 
+      "target": 2
+    }, 
+    {
+      "source": 21, 
+      "target": 4
+    }, 
+    {
+      "source": 22, 
+      "target": 4
+    }, 
+    {
+      "source": 23, 
+      "target": 4
+    }, 
+    {
+      "source": 24, 
+      "target": 4
+    }, 
+    {
+      "source": 25, 
+      "target": 4
+    }, 
+    {
+      "source": 25, 
+      "target": 3
+    }, 
+    {
+      "source": 26, 
+      "target": 4
+    }, 
+    {
+      "source": 27, 
+      "target": 4
+    }, 
+    {
+      "source": 28, 
+      "target": 4
+    }, 
+    {
+      "source": 29, 
+      "target": 4
+    }, 
+    {
+      "source": 30, 
+      "target": 4
+    }, 
+    {
+      "source": 31, 
+      "target": 4
+    }, 
+    {
+      "source": 32, 
+      "target": 4
+    }, 
+    {
+      "source": 33, 
+      "target": 4
+    }, 
+    {
+      "source": 34, 
+      "target": 4
+    }
+  ], 
+  "nodes": [
+    {
+      "color": "#cccccc", 
+      "name": "bzr", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 6.74015250404385, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#9e9e9e", 
+      "name": "mercurial", 
+      "num_requirements": 0, 
+      "num_requirers": 11, 
+      "size": 6.623630448585091, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "monotone", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "sphinx-webtools", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 5.203571019675287, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#070707", 
+      "name": "trac", 
+      "num_requirements": 0, 
+      "num_requirers": 32, 
+      "size": 6.494160841005471, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-CGit-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.765012982672007, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-accountmanager-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.846607941523747, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-advancedticketworkflow-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.932026042052016, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-authopenid-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.177145215350928, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-batchmodify-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.963075522309198, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-bazaar-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.281633354464077, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-blackmagictickettweaks-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.9357714895523355, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-code-comments-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.127411300725383, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-customfieldadmin-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.821690590230125, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-doxygen-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.019781606692235, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-fedmsg-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.6968567722192605, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-git-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.321586238989722, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-iniadmin-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.866839490283688, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-mastertickets-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.14766920093307, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-mercurial-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.421784245849616, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-monotone-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.192237800581602, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-navadd-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.4230308481401766, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-privateticketsplugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.715123271133758, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-sensitivetickets-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.789211517908054, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-spamfilter-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.834273075266555, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-sphinx-plugin", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 4.855642566697703, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-sumfields-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.5, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-themeengine-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.975308584617684, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-tickettemplate-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.158396182610019, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-tocmacro-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.82023404943097, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-tracnav-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.860679620685369, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-vatar-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.964740819525536, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-watchlist-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.127411300725383, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-workflowadmin-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.034726932529747, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "trac-xmlrpc-plugin", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.479573386169401, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }
+  ]
+}

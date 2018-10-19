@@ -1,0 +1,54 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 2
+    }, 
+    {
+      "source": 1, 
+      "target": 2
+    }, 
+    {
+      "source": 3, 
+      "target": 2
+    }
+  ], 
+  "nodes": [
+    {
+      "color": "#b4d1d7", 
+      "name": "python-gencpp", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 4.941288730027972, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#b4d1d7", 
+      "name": "python-genlisp", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.181802791773215, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#a1c4cc", 
+      "name": "python-genmsg", 
+      "num_requirements": 0, 
+      "num_requirers": 3, 
+      "size": 5.417301987996466, 
+      "status": "mispackaged", 
+      "status_color": "#5bc0de"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "python-genpy", 
+      "num_requirements": 1, 
+      "num_requirers": 0, 
+      "size": 5.537321685970982, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }
+  ]
+}

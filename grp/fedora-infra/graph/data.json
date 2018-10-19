@@ -1,0 +1,110 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 4
+    }, 
+    {
+      "source": 1, 
+      "target": 2
+    }, 
+    {
+      "source": 3, 
+      "target": 2
+    }, 
+    {
+      "source": 3, 
+      "target": 4
+    }, 
+    {
+      "source": 4, 
+      "target": 2
+    }, 
+    {
+      "source": 5, 
+      "target": 7
+    }, 
+    {
+      "source": 5, 
+      "target": 6
+    }, 
+    {
+      "source": 6, 
+      "target": 5
+    }
+  ], 
+  "nodes": [
+    {
+      "color": "#cfa4a2", 
+      "name": "bodhi", 
+      "num_requirements": 3, 
+      "num_requirers": 2, 
+      "size": 6.131455047585574, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "fedora-easy-karma", 
+      "num_requirements": 3, 
+      "num_requirers": 0, 
+      "size": 5.3324482978032695, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#c2c2c2", 
+      "name": "fedora-packager", 
+      "num_requirements": 3, 
+      "num_requirers": 5, 
+      "size": 5.187073539714658, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }, 
+    {
+      "color": "#d6b1af", 
+      "name": "fedora-review", 
+      "num_requirements": 2, 
+      "num_requirers": 0, 
+      "size": 5.914679481284496, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cb9d9b", 
+      "name": "packagedb-cli", 
+      "num_requirements": 3, 
+      "num_requirers": 3, 
+      "size": 5.724979389862706, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#cb9d9b", 
+      "name": "python-qpid", 
+      "num_requirements": 2, 
+      "num_requirers": 3, 
+      "size": 6.0861983395443, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d3aba9", 
+      "name": "qpid-cpp", 
+      "num_requirements": 1, 
+      "num_requirers": 1, 
+      "size": 6.148923940017602, 
+      "status": "blocked", 
+      "status_color": "#D9534F"
+    }, 
+    {
+      "color": "#d4d4d4", 
+      "name": "saslwrapper", 
+      "num_requirements": 0, 
+      "num_requirers": 1, 
+      "size": 3.677183820135558, 
+      "status": "idle", 
+      "status_color": "#DDDDDD"
+    }
+  ]
+}

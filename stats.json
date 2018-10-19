@@ -1,0 +1,9 @@
+{
+  "blocked": 288, 
+  "dropped": 79, 
+  "idle": 699, 
+  "legacy-leaf": 423, 
+  "mispackaged": 54, 
+  "py3-only": 1339, 
+  "released": 868
+}

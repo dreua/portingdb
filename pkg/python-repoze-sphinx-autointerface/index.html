@@ -1,0 +1,964 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+    <head>
+        <title>python-repoze-sphinx-autointerface – Python 3 Porting Database </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" type="image/svg+xml" href="/status/released.svg?cd96dd25-768d-4998-8471-424947efa80b">
+        
+        <link rel="stylesheet" href="/static/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+        <style>
+            
+            .badge {
+                min-width: 2em;
+                color: black;
+                margin-left: 0.5ex;
+            }
+            .simple-pkg-list {
+                list-style-type: none;
+                padding-left: 1em;
+            }
+            .dependents .badge {
+                min-width: 1ex;
+                min-height: 1ex;
+                font-size: 0;
+                padding: 0.75rem;
+                margin-left: 0 !important;
+            }
+            .dependents th {
+                font-weight: normal;
+            }
+            .dependents .th-collection {
+                font-size: 70%;
+            }
+            .pkgstatus-icon {
+                padding: 0;
+                min-width: 3px;
+            }
+            .note {
+                font-style: italic;
+            }
+            .iconlink span.type-alt {
+                font-size: 0;
+            }
+            nav, nav ol {
+                margin-bottom: 0 !important;
+                background-color: #F5F5F5;
+            }
+            .progress-with-legend {
+                margin-bottom: 1em;
+            }
+            .minibadge {
+                display: inline-block;
+                position: relative;
+                top: 2px;
+                min-height: 1em;
+                min-width: 1em;
+                border-radius: 3px;
+                padding: 2px;
+            }
+            .list-group .minibadge {
+                float: right;
+            }
+            .rpm-list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                padding-left: 1em;
+            }
+            .rpm-list li .rpm-name {
+                font-weight: bold;
+            }
+            .iconlink-bug-NEW,
+            .iconlink-bug-CLOSED-DEFERRED
+                { color: #AAAAAA !important; } /* ~idle */
+            .iconlink-bug-ASSIGNED,
+            .iconlink-bug-POST,
+            .iconlink-bug-MODIFIED,
+            .iconlink-bug-ON_QA,
+            .iconlink-bug-VERIFIED,
+            .iconlink-bug-RELEASE_PENDING,
+            .iconlink-bug-CLOSED
+                { color: #F0AD4E !important; } /* ~in-progress */
+            .iconlink-bug-CLOSED-NOTABUG,
+            .iconlink-bug-CLOSED-WONTFIX,
+            .iconlink-bug-CLOSED-WORKSFORME,
+            .iconlink-bug-CLOSED-DUPLICATE,
+            .iconlink-bug-CLOSED-UPSTREAM
+            .iconlink-bug-CLOSED-CANTFIX,
+            .iconlink-bug-CLOSED-INSUFFICIENT_DATA,
+            .iconlink-bug-CLOSED-EOL
+                 { color: #D9534F !important; } /* ~blocked */
+            .iconlink-bug-CLOSED-CURRENTRELEASE,
+            .iconlink-bug-CLOSED-RAWHIDE,
+            .iconlink-bug-CLOSED-ERRATA,
+            .iconlink-bug-CLOSED-NEXTRELEASE
+                { color: #5CB85C !important; } /* ~released */
+
+            .global-message {
+                padding: 0.1ex;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #888;
+                color: #000;
+            }
+            .related-packages .progress-legend-item {
+                display: block;
+                padding-left: 2em;
+            }
+            body {
+                margin-bottom: 4em;
+            }
+            
+
+            
+        </style>
+    </head>
+    <body>
+        
+            <nav>
+                <div class="container">
+                    <ol class="breadcrumb">
+                        
+                            
+                                <li>
+                                    <a href="/">Python 3 Porting Database</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="active">python-repoze-sphinx-autointerface</li>
+                            
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+        
+    <div class="container">
+        <div class="col-md-12">
+            <h1>Package python-repoze-sphinx-autointerface </h1>
+            <div style="border-left: 4px solid #7EBA54; padding-left: 4px; ">
+                <p>This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.</p>
+            </div>
+            <br>
+            <div>
+                <img src="https://fedoraproject.org/static/images/favicon.ico">
+                See
+                <a href="https://src.fedoraproject.org/rpms/python-repoze-sphinx-autointerface/">
+                    python-repoze-sphinx-autointerface</a>
+                in the Fedora Pagure, or go directly to the corresponding
+                <a href="https://src.fedoraproject.org/rpms/python-repoze-sphinx-autointerface/blob/master/f/python-repoze-sphinx-autointerface.spec">spec file</a>.
+            </div>
+        </div>
+        <div class="col-md-3">
+                
+                
+                    
+                    
+                        <div>
+                            <h3>RPMs</h3>
+                            <ul class="rpm-list">
+                            
+                                <li>
+                                    <span class="rpm-name">python2-repoze-sphinx-autointerface</span>-0.8-9.fc29
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">×</span>
+                                                
+                                                python(abi) = 2.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li>
+                                    <span class="rpm-name">python3-repoze-sphinx-autointerface</span>-0.8-9.fc29
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                python(abi) = 3.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    
+                    
+                
+            
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependencies</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        <div>
+        
+            4 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            1 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            2 Dual support;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #888888 !important;"
+                title="{&#39;ident&#39;: &#39;dropped&#39;, &#39;name&#39;: &#39;Dropped&#39;, &#39;abbrev&#39;: &#39;X&#39;, &#39;color&#39;: &#39;888888&#39;, &#39;term&#39;: &#39;X&#39;, &#39;weight&#39;: 1, &#39;description&#39;: &#39;Package will not be ported; dependents must use an alternative&#39;, &#39;rank&#39;: 1, &#39;instructions&#39;: &#39;This package will not be ported to Python 3. We can do without it – see\nif there is an alternative listed in the notes.\n\nIf you think it would be good to port it anyway, get in touch with the upstream!\n&#39;}"
+            >
+            </span>
+            1 Dropped
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-sphinx/">python-sphinx</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-zope-interface/">python-zope-interface</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1432186" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #888888 !important;"
+            title="Dropped"
+        >
+            X
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        <div>
+        
+            5 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            1 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            3 Dual support;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #888888 !important;"
+                title="{&#39;ident&#39;: &#39;dropped&#39;, &#39;name&#39;: &#39;Dropped&#39;, &#39;abbrev&#39;: &#39;X&#39;, &#39;color&#39;: &#39;888888&#39;, &#39;term&#39;: &#39;X&#39;, &#39;weight&#39;: 1, &#39;description&#39;: &#39;Package will not be ported; dependents must use an alternative&#39;, &#39;rank&#39;: 1, &#39;instructions&#39;: &#39;This package will not be ported to Python 3. We can do without it – see\nif there is an alternative listed in the notes.\n\nIf you think it would be good to port it anyway, get in touch with the upstream!\n&#39;}"
+            >
+            </span>
+            1 Dropped
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-setuptools/">python-setuptools</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-sphinx/">python-sphinx</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-zope-interface/">python-zope-interface</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1432186" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #888888 !important;"
+            title="Dropped"
+        >
+            X
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-setuptools/">python-setuptools</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-sphinx/">python-sphinx</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-zope-interface/">python-zope-interface</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependents</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        None.
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        <div>
+        
+            3 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            3 Dual support
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/certbot/">certbot</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-BTrees/">python-BTrees</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-persistent/">python-persistent</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/certbot/">certbot</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-apache/">python-certbot-apache</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-cloudflare/">python-certbot-dns-cloudflare</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-cloudxns/">python-certbot-dns-cloudxns</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-digitalocean/">python-certbot-dns-digitalocean</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-dnsimple/">python-certbot-dns-dnsimple</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-dnsmadeeasy/">python-certbot-dns-dnsmadeeasy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-gehirn/">python-certbot-dns-gehirn</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-google/">python-certbot-dns-google</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-linode/">python-certbot-dns-linode</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-luadns/">python-certbot-dns-luadns</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-nsone/">python-certbot-dns-nsone</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-ovh/">python-certbot-dns-ovh</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-rfc2136/">python-certbot-dns-rfc2136</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-route53/">python-certbot-dns-route53</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-dns-sakuracloud/">python-certbot-dns-sakuracloud</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-certbot-nginx/">python-certbot-nginx</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-BTrees/">python-BTrees</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZODB/">python-ZODB</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZEO/">python-ZEO</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZODB3/">python-ZODB3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZODB3/">python-ZODB3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZODB3/">python-ZODB3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-persistent/">python-persistent</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-BTrees/">python-BTrees</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZEO/">python-ZEO</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZODB/">python-ZODB</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-ZODB3/">python-ZODB3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+    </div>
+
+        
+    </body>
+</html>

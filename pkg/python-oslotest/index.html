@@ -1,0 +1,5293 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+    <head>
+        <title>python-oslotest – Python 3 Porting Database </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" type="image/svg+xml" href="/status/released.svg?cc0c2602-2136-4157-ae0d-78262676e1d3">
+        
+        <link rel="stylesheet" href="/static/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+        <style>
+            
+            .badge {
+                min-width: 2em;
+                color: black;
+                margin-left: 0.5ex;
+            }
+            .simple-pkg-list {
+                list-style-type: none;
+                padding-left: 1em;
+            }
+            .dependents .badge {
+                min-width: 1ex;
+                min-height: 1ex;
+                font-size: 0;
+                padding: 0.75rem;
+                margin-left: 0 !important;
+            }
+            .dependents th {
+                font-weight: normal;
+            }
+            .dependents .th-collection {
+                font-size: 70%;
+            }
+            .pkgstatus-icon {
+                padding: 0;
+                min-width: 3px;
+            }
+            .note {
+                font-style: italic;
+            }
+            .iconlink span.type-alt {
+                font-size: 0;
+            }
+            nav, nav ol {
+                margin-bottom: 0 !important;
+                background-color: #F5F5F5;
+            }
+            .progress-with-legend {
+                margin-bottom: 1em;
+            }
+            .minibadge {
+                display: inline-block;
+                position: relative;
+                top: 2px;
+                min-height: 1em;
+                min-width: 1em;
+                border-radius: 3px;
+                padding: 2px;
+            }
+            .list-group .minibadge {
+                float: right;
+            }
+            .rpm-list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                padding-left: 1em;
+            }
+            .rpm-list li .rpm-name {
+                font-weight: bold;
+            }
+            .iconlink-bug-NEW,
+            .iconlink-bug-CLOSED-DEFERRED
+                { color: #AAAAAA !important; } /* ~idle */
+            .iconlink-bug-ASSIGNED,
+            .iconlink-bug-POST,
+            .iconlink-bug-MODIFIED,
+            .iconlink-bug-ON_QA,
+            .iconlink-bug-VERIFIED,
+            .iconlink-bug-RELEASE_PENDING,
+            .iconlink-bug-CLOSED
+                { color: #F0AD4E !important; } /* ~in-progress */
+            .iconlink-bug-CLOSED-NOTABUG,
+            .iconlink-bug-CLOSED-WONTFIX,
+            .iconlink-bug-CLOSED-WORKSFORME,
+            .iconlink-bug-CLOSED-DUPLICATE,
+            .iconlink-bug-CLOSED-UPSTREAM
+            .iconlink-bug-CLOSED-CANTFIX,
+            .iconlink-bug-CLOSED-INSUFFICIENT_DATA,
+            .iconlink-bug-CLOSED-EOL
+                 { color: #D9534F !important; } /* ~blocked */
+            .iconlink-bug-CLOSED-CURRENTRELEASE,
+            .iconlink-bug-CLOSED-RAWHIDE,
+            .iconlink-bug-CLOSED-ERRATA,
+            .iconlink-bug-CLOSED-NEXTRELEASE
+                { color: #5CB85C !important; } /* ~released */
+
+            .global-message {
+                padding: 0.1ex;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #888;
+                color: #000;
+            }
+            .related-packages .progress-legend-item {
+                display: block;
+                padding-left: 2em;
+            }
+            body {
+                margin-bottom: 4em;
+            }
+            
+
+            
+        </style>
+    </head>
+    <body>
+        
+            <nav>
+                <div class="container">
+                    <ol class="breadcrumb">
+                        
+                            
+                                <li>
+                                    <a href="/">Python 3 Porting Database</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="active">python-oslotest</li>
+                            
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+        
+    <div class="container">
+        <div class="col-md-12">
+            <h1>Package python-oslotest </h1>
+            <div style="border-left: 4px solid #7EBA54; padding-left: 4px; ">
+                <p>This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.</p>
+            </div>
+            <br>
+            <div>
+                <img src="https://fedoraproject.org/static/images/favicon.ico">
+                See
+                <a href="https://src.fedoraproject.org/rpms/python-oslotest/">
+                    python-oslotest</a>
+                in the Fedora Pagure, or go directly to the corresponding
+                <a href="https://src.fedoraproject.org/rpms/python-oslotest/blob/master/f/python-oslotest.spec">spec file</a>.
+            </div>
+        </div>
+        <div class="col-md-3">
+                
+                
+                    
+                    
+                        <div>
+                            <h3>RPMs</h3>
+                            <ul class="rpm-list">
+                            
+                                <li>
+                                    <span class="rpm-name">python2-oslotest</span>-3.2.0-1.fc30
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">×</span>
+                                                
+                                                /usr/bin/python2
+                                                
+                                            </li>
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">×</span>
+                                                
+                                                python(abi) = 2.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li>
+                                    <span class="rpm-name">python3-oslotest</span>-3.2.0-1.fc30
+                                    
+                                    
+    
+
+                                    <ul class="fa-ul">
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                /usr/bin/python3
+                                                
+                                            </li>
+                                        
+                                            <li>
+                                                
+                                                    <span class="fa fa-li">✔</span>
+                                                
+                                                python(abi) = 3.7
+                                                
+                                            </li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    
+                    
+                
+            
+                <h3>Groups</h3>
+                <ul>
+                    
+                        <li>
+                            <a href="/grp/openstack/">
+                                OpenStack
+                            </a>
+                        </li>
+                    
+                </ul>
+            
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependencies</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        <div>
+        
+            10 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            1 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            7 Dual support;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5bc0de !important;"
+                title="{&#39;ident&#39;: &#39;mispackaged&#39;, &#39;name&#39;: &#39;Mispackaged&#39;, &#39;abbrev&#39;: &#39;M&#39;, &#39;color&#39;: &#39;5bc0de&#39;, &#39;term&#39;: &#39;M&#39;, &#39;weight&#39;: 7, &#39;description&#39;: &#39;Packaging, rather than code, seems incorrect&#39;, &#39;rank&#39;: 8, &#39;instructions&#39;: &#39;This package has a packaging problem, which should be described in the\nnotes.\nCheck where the problem is coming from, and work with the maintainer\nto correct it.\n\nIf this is a false positive, file a portingdb bug.\n&#39;}"
+            >
+            </span>
+            1 Mispackaged;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #888888 !important;"
+                title="{&#39;ident&#39;: &#39;dropped&#39;, &#39;name&#39;: &#39;Dropped&#39;, &#39;abbrev&#39;: &#39;X&#39;, &#39;color&#39;: &#39;888888&#39;, &#39;term&#39;: &#39;X&#39;, &#39;weight&#39;: 1, &#39;description&#39;: &#39;Package will not be ported; dependents must use an alternative&#39;, &#39;rank&#39;: 1, &#39;instructions&#39;: &#39;This package will not be ported to Python 3. We can do without it – see\nif there is an alternative listed in the notes.\n\nIf you think it would be good to port it anyway, get in touch with the upstream!\n&#39;}"
+            >
+            </span>
+            1 Dropped
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/subunit/">subunit</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5bc0de !important;"
+            title="Mispackaged"
+        >
+            M
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1342508" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-debtcollector/">python-debtcollector</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-fixtures/">python-fixtures</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mock/">python-mock</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mox3/">python-mox3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-six/">python-six</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1305626" title="bug (CLOSED CURRENTRELEASE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-CURRENTRELEASE
+        
+    ">
+        <span class="type-alt">bug (CLOSED CURRENTRELEASE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-testrepository/">python-testrepository</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-testtools/">python-testtools</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1432186" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #888888 !important;"
+            title="Dropped"
+        >
+            X
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        <div>
+        
+            10 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            2 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            7 Dual support;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #888888 !important;"
+                title="{&#39;ident&#39;: &#39;dropped&#39;, &#39;name&#39;: &#39;Dropped&#39;, &#39;abbrev&#39;: &#39;X&#39;, &#39;color&#39;: &#39;888888&#39;, &#39;term&#39;: &#39;X&#39;, &#39;weight&#39;: 1, &#39;description&#39;: &#39;Package will not be ported; dependents must use an alternative&#39;, &#39;rank&#39;: 1, &#39;instructions&#39;: &#39;This package will not be ported to Python 3. We can do without it – see\nif there is an alternative listed in the notes.\n\nIf you think it would be good to port it anyway, get in touch with the upstream!\n&#39;}"
+            >
+            </span>
+            1 Dropped
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-debtcollector/">python-debtcollector</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mock/">python-mock</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mox3/">python-mox3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-pbr/">python-pbr</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1437177" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-setuptools/">python-setuptools</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-six/">python-six</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1305626" title="bug (CLOSED CURRENTRELEASE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-CURRENTRELEASE
+        
+    ">
+        <span class="type-alt">bug (CLOSED CURRENTRELEASE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-testrepository/">python-testrepository</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/git/">git</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1432186" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #888888 !important;"
+            title="Dropped"
+        >
+            X
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/subunit/">subunit</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-docutils/">python-docutils</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-extras/">python-extras</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-fixtures/">python-fixtures</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-hypothesis/">python-hypothesis</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-iso8601/">python-iso8601</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-junitxml/">python-junitxml</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-setuptools/">python-setuptools</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-testscenarios/">python-testscenarios</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-testtools/">python-testtools</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/pygtk2/">pygtk2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-debtcollector/">python-debtcollector</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-fixtures/">python-fixtures</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mock/">python-mock</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mox3/">python-mox3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-pbr/">python-pbr</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-setuptools/">python-setuptools</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-six/">python-six</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-testrepository/">python-testrepository</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-testtools/">python-testtools</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/git/">git</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python3/">python3</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 888888">&nbsp;</span>&nbsp;<a href="/pkg/python2/">python2</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+        <div class="col-md-4 related-packages">
+            <h2>Dependents</h2>
+            
+    (Python packages only)
+    <h4>Run time <i class="fa fa-rocket"></i></h4>
+    
+        <div>
+        
+            18 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #D4EA4E !important;"
+                title="{&#39;ident&#39;: &#39;legacy-leaf&#39;, &#39;name&#39;: &#39;Py2 leaf&#39;, &#39;abbrev&#39;: &#39;L&#39;, &#39;color&#39;: &#39;D4EA4E&#39;, &#39;term&#39;: &#39;L&#39;, &#39;weight&#39;: 3, &#39;description&#39;: &#34;Package with dual support whose Python 2 subpackage(s) aren&#39;t needed elsewhere in Fedora&#34;, &#39;rank&#39;: 3, &#39;instructions&#39;: &#39;The Python 2 subpackage(s) are not required by anything in Fedora. They can be dropped if the maintainer wishes.&#39;}"
+            >
+            </span>
+            4 Py2 leaf;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            12 Dual support;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5bc0de !important;"
+                title="{&#39;ident&#39;: &#39;mispackaged&#39;, &#39;name&#39;: &#39;Mispackaged&#39;, &#39;abbrev&#39;: &#39;M&#39;, &#39;color&#39;: &#39;5bc0de&#39;, &#39;term&#39;: &#39;M&#39;, &#39;weight&#39;: 7, &#39;description&#39;: &#39;Packaging, rather than code, seems incorrect&#39;, &#39;rank&#39;: 8, &#39;instructions&#39;: &#39;This package has a packaging problem, which should be described in the\nnotes.\nCheck where the problem is coming from, and work with the maintainer\nto correct it.\n\nIf this is a false positive, file a portingdb bug.\n&#39;}"
+            >
+            </span>
+            2 Mispackaged
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-policy/">python-oslo-policy</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5bc0de !important;"
+            title="Mispackaged"
+        >
+            M
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1437180" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-rootwrap/">python-oslo-rootwrap</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5bc0de !important;"
+            title="Mispackaged"
+        >
+            M
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1436797" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient/">python-keystoneclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1327524" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-cache/">python-oslo-cache</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-concurrency/">python-oslo-concurrency</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1326722" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-db/">python-oslo-db</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1166404" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-log/">python-oslo-log</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1327505" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-middleware/">python-oslo-middleware</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1327506" title="bug (CLOSED NEXTRELEASE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-NEXTRELEASE
+        
+    ">
+        <span class="type-alt">bug (CLOSED NEXTRELEASE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-serialization/">python-oslo-serialization</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1334798" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-service/">python-oslo-service</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1334801" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-utils/">python-oslo-utils</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1171064" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-cotyledon/">python-cotyledon</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1391134" title="bug (CLOSED CURRENTRELEASE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-CURRENTRELEASE
+        
+    ">
+        <span class="type-alt">bug (CLOSED CURRENTRELEASE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-reports/">python-oslo-reports</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1334796" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-sushy/">python-sushy</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    <h4>Build time <i class="fa fa-wrench"></i></h4>
+    
+        <div>
+        
+            38 packages:
+        
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5D9552 !important;"
+                title="{&#39;ident&#39;: &#39;py3-only&#39;, &#39;name&#39;: &#39;Python 3 only&#39;, &#39;abbrev&#39;: &#39;🗹&#39;, &#39;color&#39;: &#39;5D9552&#39;, &#39;term&#39;: &#39;\\e[32;7m\\U0001F5F9\\e[0m&#39;, &#39;weight&#39;: 2, &#39;description&#39;: &#39;Package only supports Python 3&#39;, &#39;rank&#39;: 4, &#39;instructions&#39;: &#39;Welcome to the future! This package does not support Python 2 at all. All is good in the world.&#39;}"
+            >
+            </span>
+            3 Python 3 only;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #D4EA4E !important;"
+                title="{&#39;ident&#39;: &#39;legacy-leaf&#39;, &#39;name&#39;: &#39;Py2 leaf&#39;, &#39;abbrev&#39;: &#39;L&#39;, &#39;color&#39;: &#39;D4EA4E&#39;, &#39;term&#39;: &#39;L&#39;, &#39;weight&#39;: 3, &#39;description&#39;: &#34;Package with dual support whose Python 2 subpackage(s) aren&#39;t needed elsewhere in Fedora&#34;, &#39;rank&#39;: 3, &#39;instructions&#39;: &#39;The Python 2 subpackage(s) are not required by anything in Fedora. They can be dropped if the maintainer wishes.&#39;}"
+            >
+            </span>
+            11 Py2 leaf;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #7EBA54 !important;"
+                title="{&#39;ident&#39;: &#39;released&#39;, &#39;name&#39;: &#39;Dual support&#39;, &#39;abbrev&#39;: &#39;✔&#39;, &#39;color&#39;: &#39;7EBA54&#39;, &#39;term&#39;: &#39;\\e[32;7m\\u2714\\e[0m&#39;, &#39;weight&#39;: 4, &#39;description&#39;: &#39;Supports both Python 3 and Python 2&#39;, &#39;rank&#39;: 2, &#39;instructions&#39;: &#39;This package is released with dual support for Python 2 and Python 3. To move things forward, you can start making dependent packages use the Python 3 version.&#39;}"
+            >
+            </span>
+            20 Dual support;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #5bc0de !important;"
+                title="{&#39;ident&#39;: &#39;mispackaged&#39;, &#39;name&#39;: &#39;Mispackaged&#39;, &#39;abbrev&#39;: &#39;M&#39;, &#39;color&#39;: &#39;5bc0de&#39;, &#39;term&#39;: &#39;M&#39;, &#39;weight&#39;: 7, &#39;description&#39;: &#39;Packaging, rather than code, seems incorrect&#39;, &#39;rank&#39;: 8, &#39;instructions&#39;: &#39;This package has a packaging problem, which should be described in the\nnotes.\nCheck where the problem is coming from, and work with the maintainer\nto correct it.\n\nIf this is a false positive, file a portingdb bug.\n&#39;}"
+            >
+            </span>
+            2 Mispackaged;
+            </span>
+        
+            <span class="progress-legend-item">
+            <span class="minibadge"
+                style="background-color: #DDDDDD !important;"
+                title="{&#39;ident&#39;: &#39;idle&#39;, &#39;name&#39;: &#39;Idle&#39;, &#39;abbrev&#39;: &#39;I&#39;, &#39;color&#39;: &#39;DDDDDD&#39;, &#39;term&#39;: &#39; &#39;, &#39;weight&#39;: 6, &#39;description&#39;: &#39;No current activity is recorded&#39;, &#39;rank&#39;: 6, &#39;instructions&#39;: &#39;No one is working on this package now. You can visit pkgdb for links to the\nupstream project.\nAsk for Python 3 status, and coordinate work with the upstream to port.\n\nIf upstream has Python 3 support but it is not yet in Fedora,\nget in touch with the Fedora maintainer (also visible in pkgdb).\n&#39;}"
+            >
+            </span>
+            2 Idle
+            </span>
+        
+    </div>
+        <table class="table table-striped table-condensed table-hovered">
+            <thead>
+        <tr>
+            <th>Package</th>
+            <th data-x-colspan="2" class="th-collection">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-policy/">python-oslo-policy</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5bc0de !important;"
+            title="Mispackaged"
+        >
+            M
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1437180" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-rootwrap/">python-oslo-rootwrap</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5bc0de !important;"
+            title="Mispackaged"
+        >
+            M
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1436797" title="bug (NEW)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-NEW
+            iconlink-bug-NEW
+        
+    ">
+        <span class="type-alt">bug (NEW)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient-kerberos/">python-keystoneclient-kerberos</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #DDDDDD !important;"
+            title="Idle"
+        >
+            I
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-config/">python-oslo-config</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #DDDDDD !important;"
+            title="Idle"
+        >
+            I
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-futurist/">python-futurist</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneauth1/">python-keystoneauth1</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient/">python-keystoneclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-murano-pkg-check/">python-murano-pkg-check</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1327524" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1369023" title="bug (CLOSED EOL)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-EOL
+        
+    ">
+        <span class="type-alt">bug (CLOSED EOL)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstacksdk/">python-openstacksdk</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1546806" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-client-config/">python-os-client-config</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-service-types/">python-os-service-types</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-cache/">python-oslo-cache</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-concurrency/">python-oslo-concurrency</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1326722" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-context/">python-oslo-context</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1214734" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-db/">python-oslo-db</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1166404" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-log/">python-oslo-log</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1327505" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-middleware/">python-oslo-middleware</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1327506" title="bug (CLOSED NEXTRELEASE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-NEXTRELEASE
+        
+    ">
+        <span class="type-alt">bug (CLOSED NEXTRELEASE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-serialization/">python-oslo-serialization</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1334798" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-service/">python-oslo-service</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1334801" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-utils/">python-oslo-utils</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #7EBA54 !important;"
+            title="Dual support"
+        >
+            ✔
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1171064" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ceilometermiddleware/">python-ceilometermiddleware</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1352490" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-k8sclient/">python-k8sclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1333822" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-privsep/">python-oslo-privsep</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1437179" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-reports/">python-oslo-reports</a>
+        
+            <small>(nonblocking)</small>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1334796" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-shade/">python-shade</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1369025" title="bug (CLOSED CURRENTRELEASE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-CURRENTRELEASE
+        
+    ">
+        <span class="type-alt">bug (CLOSED CURRENTRELEASE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-sushy/">python-sushy</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-tosca-parser/">python-tosca-parser</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1390505" title="bug (CLOSED ERRATA)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-ERRATA
+        
+    ">
+        <span class="type-alt">bug (CLOSED ERRATA)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-troveclient/">python-troveclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+            <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1309310" title="bug (CLOSED RAWHIDE)" class="
+        iconlink fa fa-bug
+        
+            iconlink-bug-CLOSED
+            iconlink-bug-CLOSED-RAWHIDE
+        
+    ">
+        <span class="type-alt">bug (CLOSED RAWHIDE)</span>
+    </a>
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-vitrageclient/">python-vitrageclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #D4EA4E !important;"
+            title="Py2 leaf"
+        >
+            L
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-cursive/">python-cursive</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-win/">python-os-win</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+            <tr>
+                <td>
+        <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-rsdclient/">python-rsdclient</a>
+        
+    </td>
+    <td>
+        
+        <span class="badge"
+            style="background-color: #5D9552 !important;"
+            title="Python 3 only"
+        >
+            🗹
+        </span>
+    
+        
+    </td>
+            </tr>
+        
+    </tbody>
+        </table>
+    
+    
+        <h3>Dependency Tree</h3>
+        <ul class="simple-pkg-list">
+        
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-policy/">python-oslo-policy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-castellan/">python-castellan</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-cursive/">python-cursive</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-brick/">python-os-brick</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-rootwrap/">python-oslo-rootwrap</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient-kerberos/">python-keystoneclient-kerberos</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-config/">python-oslo-config</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-glance-store/">python-glance-store</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-policy/">python-oslo-policy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/os-collect-config/">os-collect-config</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/os-net-config/">os-net-config</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/python-networking-bigswitch/">python-networking-bigswitch</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient/">python-keystoneclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-muranoclient/">python-muranoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/os-collect-config/">os-collect-config</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-octaviaclient/">python-octaviaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/5minute/">5minute</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-client-config/">python-os-client-config</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-magnumclient/">python-magnumclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-octaviaclient/">python-octaviaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-shade/">python-shade</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/nodepool/">nodepool</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-swiftclient/">python-swiftclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-heatclient/">python-heatclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-troveclient/">python-troveclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-manilaclient/">python-manilaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-octaviaclient/">python-octaviaclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-troveclient/">python-troveclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/5minute/">5minute</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-tackerclient/">python-tackerclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-cache/">python-oslo-cache</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-concurrency/">python-oslo-concurrency</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-glance-store/">python-glance-store</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/os-net-config/">os-net-config</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-service/">python-oslo-service</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-brick/">python-os-brick</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osprofiler/">python-osprofiler</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mistralclient/">python-mistralclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-magnumclient/">python-magnumclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-vmware/">python-oslo-vmware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-proliantutils/">python-proliantutils</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-subunit2sql/">python-subunit2sql</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-stestr/">python-stestr</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-brick/">python-os-brick</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-win/">python-os-win</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-db/">python-oslo-db</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-subunit2sql/">python-subunit2sql</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-log/">python-oslo-log</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-muranoclient/">python-muranoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/python-networking-bigswitch/">python-networking-bigswitch</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-cache/">python-oslo-cache</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-service/">python-oslo-service</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osprofiler/">python-osprofiler</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-abclient/">python-abclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-congressclient/">python-congressclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-magnumclient/">python-magnumclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-manilaclient/">python-manilaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-octaviaclient/">python-octaviaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-privsep/">python-oslo-privsep</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-brick/">python-os-brick</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-saharaclient/">python-saharaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-vitrageclient/">python-vitrageclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-zaqarclient/">python-zaqarclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-cursive/">python-cursive</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-brick/">python-os-brick</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-win/">python-os-win</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-tackerclient/">python-tackerclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-middleware/">python-oslo-middleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-service/">python-oslo-service</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-pycadf/">python-pycadf</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ceilometermiddleware/">python-ceilometermiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-castellan/">python-castellan</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ceilometermiddleware/">python-ceilometermiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-manilaclient/">python-manilaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-privsep/">python-oslo-privsep</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-reports/">python-oslo-reports</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ryu/">python-ryu</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-subunit2sql/">python-subunit2sql</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-win/">python-os-win</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-futurist/">python-futurist</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-gnocchiclient/">python-gnocchiclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-tooz/">python-tooz</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneauth1/">python-keystoneauth1</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-ironic-inspector-client/">python-ironic-inspector-client</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient-kerberos/">python-keystoneclient-kerberos</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-cinderclient/">python-cinderclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-glance-store/">python-glance-store</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/5minute/">5minute</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-glanceclient/">python-glanceclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-muranoclient/">python-muranoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstacksdk/">python-openstacksdk</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-shade/">python-shade</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/sgmanager/">sgmanager</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-client-config/">python-os-client-config</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/5minute/">5minute</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-heatclient/">python-heatclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient/">python-keystoneclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mistralclient/">python-mistralclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-novaclient/">python-novaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/python-rackspace-auth-openstack/">python-rackspace-auth-openstack</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: DDDDDD">&nbsp;</span>&nbsp;<a href="/pkg/supernova/">supernova</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-novaclient-os-networks/">python-novaclient-os-networks</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/5minute/">5minute</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-novaclient-os-virtual-interfaces/">python-novaclient-os-virtual-interfaces</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstacksdk/">python-openstacksdk</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-client-config/">python-os-client-config</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-service-types/">python-os-service-types</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstacksdk/">python-openstacksdk</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-aodhclient/">python-aodhclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-barbicanclient/">python-barbicanclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-congressclient/">python-congressclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-designateclient/">python-designateclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-gnocchiclient/">python-gnocchiclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ironicclient/">python-ironicclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-magnumclient/">python-magnumclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-octaviaclient/">python-octaviaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-saharaclient/">python-saharaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-troveclient/">python-troveclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-vitrageclient/">python-vitrageclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-zaqarclient/">python-zaqarclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-pankoclient/">python-pankoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient/">python-keystoneclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-murano-pkg-check/">python-murano-pkg-check</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-muranoclient/">python-muranoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstacksdk/">python-openstacksdk</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-client-config/">python-os-client-config</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-os-service-types/">python-os-service-types</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-cache/">python-oslo-cache</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-concurrency/">python-oslo-concurrency</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-context/">python-oslo-context</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-db/">python-oslo-db</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-log/">python-oslo-log</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-middleware/">python-oslo-middleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-castellan/">python-castellan</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ceilometermiddleware/">python-ceilometermiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-db/">python-oslo-db</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-log/">python-oslo-log</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-middleware/">python-oslo-middleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-serialization/">python-oslo-serialization</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/ara/">ara</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-glance-store/">python-glance-store</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-muranoclient/">python-muranoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-policy/">python-oslo-policy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/python-networking-bigswitch/">python-networking-bigswitch</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-heatclient/">python-heatclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient/">python-keystoneclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-novaclient/">python-novaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-log/">python-oslo-log</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-middleware/">python-oslo-middleware</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-pycadf/">python-pycadf</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-aodhclient/">python-aodhclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-barbicanclient/">python-barbicanclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-castellan/">python-castellan</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-congressclient/">python-congressclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ironicclient/">python-ironicclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-magnumclient/">python-magnumclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-manilaclient/">python-manilaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-reports/">python-oslo-reports</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-saharaclient/">python-saharaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-tooz/">python-tooz</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-cursive/">python-cursive</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-brick/">python-os-brick</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-pankoclient/">python-pankoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-tackerclient/">python-tackerclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-taskflow/">python-taskflow</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-service/">python-oslo-service</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-utils/">python-oslo-utils</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/ara/">ara</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-glance-store/">python-glance-store</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-ironic-inspector-client/">python-ironic-inspector-client</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5bc0de">&nbsp;</span>&nbsp;<a href="/pkg/python-muranoclient/">python-muranoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/os-net-config/">os-net-config</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D9534F">&nbsp;</span>&nbsp;<a href="/pkg/python-networking-bigswitch/">python-networking-bigswitch</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-cinderclient/">python-cinderclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-glanceclient/">python-glanceclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-heatclient/">python-heatclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneauth1/">python-keystoneauth1</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-keystoneclient/">python-keystoneclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-mistralclient/">python-mistralclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-neutronclient/">python-neutronclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-novaclient/">python-novaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-openstackclient/">python-openstackclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osc-lib/">python-osc-lib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-cache/">python-oslo-cache</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-concurrency/">python-oslo-concurrency</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-db/">python-oslo-db</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-log/">python-oslo-log</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-messaging/">python-oslo-messaging</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-middleware/">python-oslo-middleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-serialization/">python-oslo-serialization</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-service/">python-oslo-service</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 7EBA54">&nbsp;</span>&nbsp;<a href="/pkg/python-osprofiler/">python-osprofiler</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-abclient/">python-abclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-aodhclient/">python-aodhclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-barbicanclient/">python-barbicanclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ceilometermiddleware/">python-ceilometermiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-congressclient/">python-congressclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-designateclient/">python-designateclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ironicclient/">python-ironicclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-magnumclient/">python-magnumclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-manilaclient/">python-manilaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-octaviaclient/">python-octaviaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-privsep/">python-oslo-privsep</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-reports/">python-oslo-reports</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-vmware/">python-oslo-vmware</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-proliantutils/">python-proliantutils</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-saharaclient/">python-saharaclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-tooz/">python-tooz</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-troveclient/">python-troveclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-vitrageclient/">python-vitrageclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-zaqarclient/">python-zaqarclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-cursive/">python-cursive</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-brick/">python-os-brick</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-win/">python-os-win</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-pankoclient/">python-pankoclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-tackerclient/">python-tackerclient</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-taskflow/">python-taskflow</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-ceilometermiddleware/">python-ceilometermiddleware</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-cotyledon/">python-cotyledon</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-k8sclient/">python-k8sclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-keystonemiddleware/">python-keystonemiddleware</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-privsep/">python-oslo-privsep</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-reports/">python-oslo-reports</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-oslo-versionedobjects/">python-oslo-versionedobjects</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-shade/">python-shade</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-sushy/">python-sushy</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-rsd-lib/">python-rsd-lib</a>
+            <i class="dep-kind fa fa-rocket"></i>
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-tosca-parser/">python-tosca-parser</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-troveclient/">python-troveclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: D4EA4E">&nbsp;</span>&nbsp;<a href="/pkg/python-vitrageclient/">python-vitrageclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            …
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-cursive/">python-cursive</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-os-win/">python-os-win</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+        <li>
+            <span class="pkgstatus-icon" style="background-color: 5D9552">&nbsp;</span>&nbsp;<a href="/pkg/python-rsdclient/">python-rsdclient</a>
+            
+            <i class="dep-kind fa fa-wrench"></i>
+            
+            <ul class="simple-pkg-list" style="border-left: 1px solid #EEE">
+                
+            </ul>
+        </li>
+    
+    </ul>
+    
+
+        </div>
+    </div>
+
+        
+    </body>
+</html>
